@@ -1,0 +1,4515 @@
+
+/* ---------------------------------------------------------
+
+	 pageWrapper styles
+	 dropdown submenu styles
+	 headingHead styles
+	 hTitle styles
+	 blockH styles
+	 contentBlock styles
+	 btnMore styles
+	 btn styles
+	 btnText
+	 btnThemeOutine
+	 btnDefaultOutline
+	 btnTheme
+	 slickDots
+	 slickBars styles
+	 pageHeader
+	 pageHeaderHolder
+	 topBarContactList
+	 loginLinksList
+	 topBarSearchForm
+	 logo
+	 pageNavHolder
+	 pageNavBtnCart , topBarSearchFormOpener styles
+	 pageNavBtnCart
+	 pageNav
+	 pageMainNavigation
+	 pageMainNavOpener styles
+	 mainNavCollapse styles
+	 mainNavDropdown styles
+	 bannerSlider styles
+	 bannerSlideHolder styles
+	 bannerBlockSlideBg styles
+	 bannerSlideHeader styles
+	 bannerSliderSlide styles
+	 featuresList styles
+	 widget styles
+	 widgetFormtHead styles
+	 aboutIntroBlock styles
+	 quoteFormOpener styles
+	 widgetQuoteFormCollapse styles
+	 servicesBlock styles
+	 serviceColumn styles
+	 stepsDescrBlock styles
+	 stepsGuideList styles
+	 filterList styles
+	 filtersNavTabs styles
+	 prejectsListingBlock styles
+	 prPostColumn styles
+	 clientsTestimonialBlock styles
+	 clientQuote styles
+	 ratingStarList styles
+	 testimonialSwitcherSlider , testimonialSwitcherSlider02 styles
+	 testimonialSwitcherSlider02 styles
+	 testimonialSwitcherPicWrap styles
+	 videoBlockWrap styles
+	 btnPlay styles
+	 ltPostsBlock styles
+	 ltPostColumn styles
+	 pageFooterAreaWrap styles
+	 subscribeAsideBlock styles
+	 ftAddress styles
+	 adrList styles
+	 pageFooter styles
+	 ftLinksNav styles
+	 ftSocialLinks styles
+	 wcuBlock styles
+	 yoeListing styles
+	 wcuBlockImageHolder styles
+	 mkCallAside styles
+	 wwdTabsetAreaWrap styles
+	 wwdTabsetList styles
+	 videoAside styles
+	 pageHeaderTopBar styles
+	 phSocialLinks styles
+	 languageSlctDrop styles
+	 phAddress styles
+	 phadrList styles
+	 pgIcnsWrap styles
+	 pgSearchForm styles
+	 pgSearchFormOpener styles
+	 pgSearchCollpase styles
+	 bsSwitcherAsideWrap styles
+	 bsSwitcher styles
+	 bsSSlide styles
+	 servicesVisualColumnsBlock styles
+	 svcColumn styles
+	 prjctDescrColumn styles
+	 postTitleTextTag styles
+	 prjctColumnImageWrap styles
+	 prjctTextHolder styles
+	 prjctCatagoriesSlider styles
+	 prjctSSlide styles
+	 pSsImage styles
+	 filtersTabContentWrap styles
+	 hwwCBlock styles
+	 hwwColumnsList styles
+	 shareWTitleWrap styles
+	 socialLinksSimple styles
+	 bannerBottomAsideBlock styles
+	 bannerAsideServicesList styles
+	 abtIntroAsideBlock styles
+	 swwdPost styles
+	 swwdColumnsSlider styles
+	 hiwStepsList styles
+	 npProjectsSlider styles
+	 npssSlide styles
+	 powVisualPost styles
+	 pricingPlansBlock styles
+	 pricePlanColumn styles
+	 pricingFeaturesList styles
+	 reKtAsideBlock styles
+	 popItemColumn styles
+	 popActionsList styles
+	 moreExploreHolder styles
+	 breadcrumb styles
+	 pageBdWrapNav styles
+	 ctSorterWrapHeader styles
+	 viewSorterList styles
+	 dsSortDropdown styles
+	 pagination styles
+	 getResultsWrap styles
+	 popItemColumn__listView styles
+	 filtersSidebarFWrap styles
+	 fSFWHolder styles
+	 filtersSidebarOpener styles
+	 detailsImageSlider styles
+	 disSliderWrap styles
+	 disImg styles
+	 sdbWDescription styles
+	 cartForm styles
+	 shpDefinaition styles
+	 shpTopIntroWrap styles
+	 disSwitcherSlider styles
+	 listDefault styles
+	 benefitsFeaturedList styles
+	 reviewsList styles
+	 reviewSubmissionForm styles
+	 cartTableWrap styles
+	 cartTable styles
+	 cartQuantity styles
+	 cartTotal styles
+	 checkoutAlert styles
+	 bilingDetailsWrap styles
+	 confirmationBoxWrap styles
+	 checkoutCountTable styles
+	 custom control styles
+	 pmSlctList styles
+	 pmPlaceholderImage styles
+	 pmNotePop styles
+	 otwBlock styles
+	 teamColumn styles
+	 tcSocialNetworks styles
+	 slickGalleryBars styles
+	 galleryAreaBlock styles
+	 prPCColumnsWrap styles
+	 loadMoreBtnWrap styles
+	 pageFullBlock styles
+	 countdownList styles
+	 signWarn styles
+	 swwdColumnsSliderType2 styles
+	 pdssImage styles
+	 prjctDtSliderSwitcher styles
+	 pdssvSliderWrap styles
+	 pdisImage styles
+	 pdbDescriptionHolder styles
+	 pdDescrTable styles
+	 prdtImageWrap styles
+	 contactAreaBlock styles
+	 ctMapHolder styles
+	 ctAddress styles
+	 widgetCtForm styles
+	 ctList styles
+	 bCenterImage styles
+	 btHHead styles
+	 bdText styles
+	 statusesList styles
+	 quoteDefault styles
+	 rpPosterSlider styles
+	 rpPostsWrap , commentsWrap styles
+	 commentsWrap styles
+	 bpCommentsList styles
+	 comment form styles
+	 shareSocialLinks styles
+	 piSocialLinks styles
+	 wpiTable styles
+	 imgLignCenter styles
+	 sticky wrap headerFixer styles
+	 cshHolderWrap styles
+	 cshColumn styles
+	 cshColumnFull styles
+	 hb-services styles
+	 booked-calendar styles
+	 pre-active styles
+	 back-top styles
+	 loader-holder styles
+	 
+---------------------------------------------------------*/
+
+
+body{
+	-ms-overflow-style: scrollbar;
+	min-width: 320px;
+}
+button,
+a{
+	@extend %transition;
+	outline: none;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6{
+	a{
+		color: inherit;
+		&:hover{ color: $link-hover-color; }
+	}
+}
+hr{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+/* ---------------------------------------------------------
+	 pageWrapper styles
+---------------------------------------------------------*/
+#pageWrapper{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	//min-height: 99999px;
+}
+.bgCover{
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.inaccessible{ pointer-events: none; }
+.hasShadow{ box-shadow: $box-shadow; }
+.fwMedium{ font-weight: 500; }
+.fwSemiBold{ font-weight: 600; }
+.fontRoboto{ font-family: $font-roboto; }
+.fontBase{ font-family: $font-family-base; }
+.buttonReset{
+	border: 0;
+	background-color: transparent;
+	padding: 0;
+}
+.bgWhite{ background-color: $white; }
+.dropdown-menu{ box-shadow: $box-shadow }
+/* ---------------------------------------------------------
+	 dropdown submenu styles
+---------------------------------------------------------*/
+.dropdown-submenu{ position: relative; }
+/* ---------------------------------------------------------
+	 headingHead styles
+---------------------------------------------------------*/
+.headingHead{
+	p{ margin-bottom: 10px; }
+}
+/* ---------------------------------------------------------
+	 hTitle styles
+---------------------------------------------------------*/
+.hTitle{
+	letter-spacing: 3.4px;
+	font-size: 16px;
+	line-height: (20/16);
+	margin-bottom: 13px;
+}
+/* ---------------------------------------------------------
+	 blockH styles
+---------------------------------------------------------*/
+.blockH{ margin-bottom: 13px; }
+/* ---------------------------------------------------------
+	 contentBlock styles
+---------------------------------------------------------*/
+.contentBlock{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/* ---------------------------------------------------------
+	 btnMore styles
+---------------------------------------------------------*/
+.btnMore{
+	color: $gray-200;
+	&:hover{
+		.icn{ transform: translateX(5px); }
+	}
+	.icn{
+		transition: inherit;
+		transform: translateX(0);
+		font-size: 20px;
+		margin-left: 5px;
+		@include vertical(inline-block, middle);
+	}
+}
+/* ---------------------------------------------------------
+	 btn styles
+---------------------------------------------------------*/
+.btn{
+	font-size: 14px;
+	letter-spacing: 1.3px;
+	padding: 0;
+	border: 0;
+	transition: none;
+	position: relative;
+	@include pseudo(before, 0, 0, 0, 0);
+	&.btnRoudedLarge{ border-radius: 99px; }
+	&:before{
+		content: attr(data-hover);
+		opacity: 0;
+		transform: translateY(50%) rotateX(90deg);
+		transform-origin: right center 0;
+		transform-style: preserve-3d;
+		transition: all 0.3s ease-in-out 0s;
+		padding: $btn-padding-y $input-btn-padding-x;
+	}
+	&:hover{
+		&:before{
+			opacity: 1;
+			transform: translateY(0px) rotateX(0deg);
+		}
+		.btnText{
+			opacity: 0;
+			transform: translateY(-50%) rotateX(90deg);
+		}
+	}
+	.btnText,
+	&:before{ border-radius: inherit; }
+	.btnIcn{
+		vertical-align: middle;
+		margin-right: 8px;
+		margin-left: 8px;
+	}
+}
+/* ---------------------------------------------------------
+	 btnText
+---------------------------------------------------------*/
+.btnText{
+	@extend .inaccessible;
+	border: 1px solid transparent;
+	transform: translateY(0px) rotateX(0deg);
+	transform-origin: right center 0;
+	transform-style: preserve-3d;
+	transition: all 0.3s ease-in-out 0s;
+	opacity: 1;
+	padding: $btn-padding-y $input-btn-padding-x;
+}
+/* ---------------------------------------------------------
+	 btnThemeOutine
+---------------------------------------------------------*/
+.btnThemeOutine{
+	background-color: transparent;
+	border-color: transparent;
+	&.btnThemeOutineNotWhite{
+		.btnText{ color: $dark; }
+	}
+	&:before{ color: $white; }
+	.btnText{ color: $white; }
+	&:hover{ color: $white; }
+}
+/* ---------------------------------------------------------
+	btnDefaultOutline
+---------------------------------------------------------*/
+.btnDefaultOutline{
+	background-color: transparent;
+	border-color: transparent;
+	letter-spacing: normal;
+	&:before{
+		border-color: $dark;
+		background-color: $dark;
+		color: $white;
+	}
+	.btnText{
+		border-color: $border-color;
+		color: $dark;
+	}
+	&:hover{ color: $white; }
+}
+/* ---------------------------------------------------------
+	 btnTheme
+---------------------------------------------------------*/
+.btnTheme{
+	background-color: transparent;
+	border-color: transparent;
+	&.btnThemeWhiteInverse{
+		.btnText{
+			border-color: $white;
+			background-color: $white;
+		}
+	}
+	.btnText,
+	&:before{ color: $white; }
+	&:hover{ color: $white; }
+}
+/* ---------------------------------------------------------
+	 slickDots
+---------------------------------------------------------*/
+.slickDots{
+	line-height: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	li{ margin: 0 5px 5px; }
+	button{
+		@extend .buttonReset;
+		cursor: pointer;
+		border-radius: 100%;
+		background-color: $light;
+		@include text-hide();
+		@include size(10px);
+	}
+}
+/* ---------------------------------------------------------
+	 slickBars styles
+---------------------------------------------------------*/
+.slickBars{
+	line-height: 0;
+	li{ margin: 0 5px 10px; }
+	button{
+		cursor: pointer;
+		padding: 0;
+		border: 0;
+		background-color: $light;
+		@include text-hide();
+		@include size(20px, 8px);
+		&:hover{ background-color: darken($light, 20%); }
+	}
+	.prPostsSlider02 &{ padding-top: 20px; }
+}
+/* ---------------------------------------------------------
+	 pageHeader
+---------------------------------------------------------*/
+#pageHeader{
+	position: relative;
+	z-index: 999;
+	/* pageHeader02 styles */
+	&.pageHeader02{
+		//margin-top: -16px;
+		//transform: translateY(15px);
+		//margin-bottom: 15px;
+	}
+	/* pageHeader04 styles */
+	&.pageHeader04{
+		.btn{
+			min-width: 160px;
+			margin-left: 30px;
+		}
+	}
+	&.position-absolute{
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+}
+/* ---------------------------------------------------------
+	 pageHeaderHolder
+---------------------------------------------------------*/
+.pageHeaderHolder{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	/* pageHeaderHolder02 styles */
+	&.pageHeaderHolder02{ padding: 10px; }
+	/* pageHeaderHolder03 styles */
+	&.pageHeaderHolder03{
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+}
+/* ---------------------------------------------------------
+	 topBarContactList
+---------------------------------------------------------*/
+.topBarContactList{
+	font-size: 21px;
+	&.topBarContactList02{
+		a{
+			background-color: transparent;
+			color: $gray-300;
+		}
+	}
+	&.barTransparent{ a{ &:hover{ color: $info; } } }
+	a{
+		padding: 5px 16px;
+		color: $white;
+		display: block;
+		&:hover{
+			background-color: $gray-300;
+			color: $white;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 loginLinksList
+---------------------------------------------------------*/
+.loginLinksList{
+	color: $gray-300;
+	position: absolute;
+	top: 9px;
+	right: 53px;
+	font-size: 16px;
+	z-index: 1;
+	&.loginLinksList02{
+		background-color: transparent;
+		right: 63px;
+		top: 11px;
+		color: $white;
+		a{ &:hover{ color: $black; } }
+	}
+	li{ position: relative; }
+	a{
+		color: inherit;
+		display: block;
+		border: 1px solid currentColor;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: $border-radius;
+		@include size(33px, 28px);
+	}
+}
+/* ---------------------------------------------------------
+	 topBarSearchForm
+---------------------------------------------------------*/
+.topBarSearchForm{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	right: 0;
+	background-color: $white;
+	overflow: hidden;
+	margin-top: 44px;
+	&.topBarSearchForm02{ margin: 47px ($grid-gutter-width / 2) 0; }
+	.form-group{
+		border-style: solid;
+		border-width: 1px 0;
+		position: relative;
+		padding: 10px 15px;
+	}
+	button{
+		position: absolute;
+		top: 24px;
+		right: 25px;
+	}
+}
+/* ---------------------------------------------------------
+	 logo
+---------------------------------------------------------*/
+.logo{
+	margin: 0 10px 0 0;
+	max-width: 93px;
+	position: relative;
+	z-index: 99;
+	/* logo03, logo05 styles */
+	&.logo03,
+	&.logo05{ margin-top: 0; }
+	&.logo05Sticky{
+		margin-top: 4px;
+		display: none;
+	}
+	&.logo03Sticky{
+		margin: 0;
+		display: none;
+		position: absolute;
+		left: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+/* ---------------------------------------------------------
+	 pageNavHolder
+---------------------------------------------------------*/
+.pageNavHolder{
+	margin: 0;
+	width: calc(100% - 103px);
+	/* pageNavHolder03 , pageNavHolder05 styles */
+	&.pageNavHolder03,
+	&.pageNavHolder05{
+		color: $white;
+		width: 100%;
+		position: relative;
+	}
+}
+/* ---------------------------------------------------------
+	 pageNavBtnCart , topBarSearchFormOpener styles
+---------------------------------------------------------*/
+.pageNavBtnCart,
+.topBarSearchFormOpener{
+	color: $gray-300;
+	border-radius: $border-radius;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0;
+	margin-left: 5px;
+	font-size: 16px;
+	@include size(33px, 28px);
+	@include vertical(inline-block, top);
+	&.pageNavBtnCart02,
+	&.topBarSearchFormOpener02{
+		color: $white;
+		&:hover{ color: $black; }
+	}
+}
+/* ---------------------------------------------------------
+	 pageNavBtnCart
+---------------------------------------------------------*/
+.pageNavBtnCart{
+	margin-right: 28px;
+	/* pageNavBtnCart03 styles */
+	&.pageNavBtnCart03{
+		margin-right: 0;
+		margin-left: 15px;
+	}
+}
+/* ---------------------------------------------------------
+	 pageNav
+---------------------------------------------------------*/
+#pageNav{
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	position: static;
+}
+/* ---------------------------------------------------------
+	 pageMainNavigation
+---------------------------------------------------------*/
+.pageMainNavigation{
+	&.navbar-nav{
+		width: 100%;
+		background-color: $light;
+		overflow: hidden;
+		/* pageMainNavigation02, pageMainNavigation03 , pageMainNavigation05 styles */
+		&.pageMainNavigation02,
+		&.pageMainNavigation03,
+		&.pageMainNavigation05{
+			.nav-link{ &:before{ background-color: $white; } }
+		}
+		/* pageMainNavigation04 styles */
+		&.pageMainNavigation04{
+			.nav-link{
+				&:before{ display: none; }
+			}
+		}
+		.nav-link{
+			position: relative;
+			color: $gray-300;
+			padding: 5px 15px;
+			&:hover,
+			&:focus,
+			&:active{ outline: none; }
+		}
+	}
+	/* navDropdownList styles */
+	.navDropdownList{
+		li.dropdown,
+		li.dropdown-submenu{
+			&:hover{
+				> .dropdown-item{ background-color: transparent; }
+			}
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 pageMainNavOpener styles
+---------------------------------------------------------*/
+.pageMainNavOpener{
+	color: $gray-300;
+	border-color: currentColor;
+	position: relative;
+	border-radius: $border-radius;
+	padding: 0;
+	margin-left: 15px;
+	@include size(33px, 28px);
+	@include pseudo(before, 5px, 5px, auto, 5px);
+	@include pseudo(after, auto, 5px, 5px, 5px);
+	/* pageMainNavOpener02 styles */
+	&.pageMainNavOpener02{
+		color: $white;
+		&:hover{ color: $black; }
+	}
+	/* pageMainNavOpener03 , pageMainNavOpener05 styles */
+	&.pageMainNavOpener03,
+	&.pageMainNavOpener05{
+		position: absolute;
+		right: 0;
+		top: -34px;
+	}
+	/* pageMainNavOpener05 styles */
+	&.pageMainNavOpener05{ right: 15px; }
+	&:after,
+	&:before,
+	.navbar-toggler-icon{
+		background-color: currentColor;
+		border-radius: $border-radius-lg;
+		height: 2px;
+	}
+	.navbar-toggler-icon{
+		position: absolute;
+		left: 5px;
+		right: 5px;
+		width: auto;
+		top: 12px;
+	}
+}
+/* ---------------------------------------------------------
+	 mainNavCollapse styles
+---------------------------------------------------------*/
+.mainNavCollapse{
+	&.navbar-collapse{
+		position: absolute;
+		left: 0;
+		padding-bottom: 99999px;
+		margin-bottom: -99999px;
+		background-color: $light;
+		width: 280px;
+		top: 45px;
+		transform: translateX(-100%);
+		box-shadow: 3px 0 5px rgba($black, 0.15);
+		/* mainNavCollapse02 , mainNavCollapse03 , mainNavCollapse05 styles */
+		&.mainNavCollapse02,
+		&.mainNavCollapse03,
+		&.mainNavCollapse05{
+			transform-origin: 0 0 0;
+			transform: scaleY(0);
+			width: 100%;
+			padding-bottom: 0;
+			margin-bottom: 0;
+			overflow: hidden !important;
+			border-bottom-left-radius: $border-radius;
+			border-bottom-right-radius: $border-radius;
+			&.show{ transform: scaleY(1); }
+		}
+		/* mainNavCollapse02 styles */
+		&.mainNavCollapse02{
+			top: 100%;
+			padding-top: 0;
+			left: 0;
+			right: 0;
+		}
+		/* mainNavCollapse03 , mainNavCollapse05 styles */
+		&.mainNavCollapse03,
+		&.mainNavCollapse05{
+			padding-top: 0;
+			top: 0;
+			left: #{$grid-gutter-width / -2};
+			width: calc(100% + #{$grid-gutter-width});
+		}
+		/* mainNavCollapse04 styles */
+		&.mainNavCollapse04{ top: 73px; }
+		/* mainNavCollapse05 styles */
+		&.mainNavCollapse05{
+			left: 0;
+			width: 100%;
+		}
+		&.show{ transform: translateX(0); }
+	}
+}
+/* ---------------------------------------------------------
+	 mainNavDropdown styles
+---------------------------------------------------------*/
+.mainNavDropdown{
+	&.dropdown-menu{
+		@extend %transition;
+		border: 0;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		.dropdown-item{
+			padding: 5px 25px;
+			&:hover,
+			&.active{ color: $white; }
+		}
+		.dropdown-menu{
+			.dropdown-item{
+				padding-left: 35px;
+				padding-right: 35px;
+			}
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 bannerSlider styles
+---------------------------------------------------------*/
+.bannerSliderBlock{
+	line-height: (24/16);
+	letter-spacing: 0.85px;
+	overflow: hidden;
+	/* bannerSliderBlock02 , bannerSliderBlock03 , bannerSliderBlock04 , bannerSliderBlock05 styles */
+	&.bannerSliderBlock02,
+	&.bannerSliderBlock03,
+	&.bannerSliderBlock04,
+	&.bannerSliderBlock05{
+		.slick-arrow{
+			border-style: solid;
+			border-width: 1px;
+			background-color: transparent;
+		}
+	}
+	/* bannerSlider03 styles */
+	&.bannerSliderBlock03{
+		line-height: inherit;
+		h1, .h1{ margin-bottom: 13px; }
+	}
+	/* bannerSliderBlock05 styles */
+	&.bannerSliderBlock05{
+		h1, .h1{ margin-bottom: 15px; }
+	}
+	/* bsbOffsetTop styles */
+	&.bsbOffsetTop{
+		transform: translateY(-16px);
+		&.bsbOffsetTop3{ transform: translateY(0); }
+	}
+	.btnHolder{
+		margin-left: -10px;
+		margin-right: -10px;
+		animation-duration: 1s;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(100px);
+	}
+	.btn{
+		min-width: 160px;
+		margin: 0 10px 10px;
+	}
+	.btn-outline-success{ color: $white; }
+	h1, .h1{
+		color: inherit;
+		margin-bottom: 21px;
+	}
+	.slick-arrow{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 5;
+		color: $white;
+		background-color: rgba($white, 0.2);
+		border-radius: $border-radius;
+		font-size: 18px;
+		@include size(50px);
+		&:hover{ color: $white; }
+	}
+	.slickPrev{ left: #{$grid-gutter-width / 2}; }
+	.slickNext{ right: #{$grid-gutter-width / 2}; }
+	.slickDots{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+/* ---------------------------------------------------------
+	 bannerSlideHolder styles
+---------------------------------------------------------*/
+.bannerSlideHolder{
+	z-index: 1;
+	min-height: calc(100vh - 45px);
+	@include v-align(inherit, middle, before);
+	/* bannerSlideHolder02 styles */
+	&.bannerSlideHolder02{ min-height: calc(100vh - 32px); }
+	/* bannerSlideHolder03 styles */
+	&.bannerSlideHolder03{ min-height: calc(100vh - 112px); }
+	/* bannerSlideHolder05 styles */
+	&.bannerSlideHolder05{
+		min-height: calc(100vh - 42px);
+		> .align{
+			max-width: none;
+			width: 100%;
+		}
+	}
+	> .align{
+		padding-top: 35px;
+		padding-bottom: 40px;
+	}
+}
+/* ---------------------------------------------------------
+	 bannerBlockSlideBg styles
+---------------------------------------------------------*/
+.bannerBlockSlideBg{
+	left: 0;
+	top: 0;
+	z-index: -1;
+	transform-origin: 50% 50% 0;
+	transform: scale(2);
+	animation-name: slidersBgFadeScaleAnimateOut;
+	animation-timing-function: ease;
+	animation-duration: 5s;
+	@include size(100%);
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{
+		@extend .inaccessible;
+		background-color: rgba($black, 0.5);
+	}
+}
+/* ---------------------------------------------------------
+	 bannerSlideHeader styles
+---------------------------------------------------------*/
+.bannerSlideHeader{
+	margin-bottom: 26px;
+	overflow: hidden;
+	animation-duration: 1s;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(100px);
+	/* bannerSlideHeader03 styles */
+	&.bannerSlideHeader03{ margin-bottom: 8px; }
+}
+/* ---------------------------------------------------------
+	 bannerSliderSlide styles
+---------------------------------------------------------*/
+.bannerSliderSlide{
+	z-index: 1;
+	&.slick-current{
+		.bannerBlockSlideBg{
+			transform: scale(1);
+			animation-name: slidersBgFadeScaleAnimateIn;
+		}
+		.bannerSlideHeader,
+		.btnHolder{
+			animation-name: animOne;
+			opacity: 1;
+			visibility: visible;
+			transform: translateY(0);
+		}
+		.btnHolder{ animation-name: animTwo; }
+	}
+}
+/* ---------------------------------------------------------
+	 featuresList styles
+---------------------------------------------------------*/
+.featuresList{
+	margin: 25px -5px 0;
+	/* featuresList04 styles */
+	&.featuresList04{
+		margin: 0;
+		padding-top: 31px;
+		> li{
+			flex-basis: inherit;
+			flex-grow: inherit;
+			padding-left: 0;
+			padding-right: 0;
+			&.hover{ .icn{ transform: scaleX(-1); } }
+		}
+		h3, .h3{ @extend %transition; }
+		.icn{
+			@extend %transition;
+			transform: scaleX(1);
+			position: static;
+			transform: none;
+			opacity: 1;
+			font-size: 45px;
+			margin-right: 20px;
+			margin-top: 7px;
+		}
+	}
+	> li{
+		display: flex;
+		flex-basis: 0;
+		flex-grow: 1;
+		min-width: 50%;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-bottom: 20px;
+	}
+	.wrap{
+		@extend %transition;
+		overflow: hidden;
+		padding: 12px 5px 12px 10px;
+		&.hover{
+			color: $white;
+			h3, .h3,
+			h4, .h4,
+			.icn{ color: inherit; }
+			.icn{ opacity: 1; }
+		}
+	}
+	h3, .h3{
+		transition: inherit;
+		font-size: 30px;
+		line-height: 1;
+		margin-bottom: 9px;
+		@include nowrap(block);
+	}
+	h4, .h4{
+		transition: inherit;
+		color: inherit;
+		font-size: 13px;
+		margin-bottom: 0;
+		@include nowrap(block);
+	}
+	.icn{
+		transition: inherit;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translate(50%, -50%);
+		opacity: 0.6;
+		font-size: 45px;
+		margin-right: 6px;
+		margin-top: -5px;
+	}
+}
+/* ---------------------------------------------------------
+	 widget styles
+---------------------------------------------------------*/
+.widget{
+	h3, .h3{ margin-bottom: 22px; }
+	/* widgetForm styles */
+	&.widgetForm{
+		position: relative;
+		padding: 30px 30px 52px;
+		.form-group{ margin-bottom: 20px; }
+		.form-control,
+		.custom-select{ height: 46px; }
+		textarea{
+			&,
+			&.form-control{
+				resize: none;
+				height: 90px;
+			}
+		}
+		.btn{
+			min-width: 1px;
+			margin-top: 30px;
+		}
+	}
+	/* widget search styles */
+	&.widget_search{
+		.form-control,
+		input[type="search"]{
+			border-width: 0 0 1px;
+			border-color: $gray-300;
+			margin: 0;
+			height: 40px;
+			padding: 7px 25px 7px 0;
+		}
+		button{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 0;
+			font-size: 14px;
+		}
+	}
+	/* widget categories styles */
+	&.widget_categories{
+		margin-bottom: 38px;
+		h3, .h3{ margin-bottom: 12px; }
+		.cat-item{
+			+ .cat-item{
+				a{ border-top: 1px solid $border-color; }
+			}
+			a{
+				color: inherit;
+				padding: 10px 14px 11px;
+				@include pseudo(before, 0, auto, auto, 0);
+				&:before{
+					@extend .fas;
+					content: '\f101';
+					font-size: 11px;
+					top: 19px;
+				}
+				&:hover{ color: $white; }
+			}
+		}
+	}
+	/* widgetPriceFilter styles */
+	&.widgetPriceFilter{
+		h3, .h3{ margin-bottom: 31px; }
+		.ui-slider{ margin: 0 3px 20px 11px; }
+	}
+	/* rpListWidget styles */
+	&.rpListWidget{
+		h3, .h3{ margin-bottom: 18px; }
+		ul{
+			> li{
+				overflow: hidden;
+				margin-bottom: 13px;
+			}
+		}
+		time{
+			margin-bottom: 6px;
+			font-size: 14px;
+			line-height: (18/14);
+		}
+		.imgWrap{
+			@extend %transition;
+			border: 1px solid $border-color;
+			@include size(70px, 80px);
+			&.alignleft{ margin: 7px 20px 0 0; }
+			&.imgWrap2{
+				margin-top: 0;
+				border: 0;
+				@include size(70px);
+			}
+			img{ vertical-align: top; }
+		}
+		h4, .h4{
+			font-size: 16px;
+			line-height: (26/16);
+			margin-bottom: 10px;
+		}
+		h5, .h5{ margin-bottom: 0; }
+		.descrWrap{ overflow: hidden; }
+	}
+	/* widget tag cloud styles */
+	&.widget_tag_cloud{
+		.tagcloud{ margin-left: -10px; }
+		.tagcloudItem{
+			vertical-align: top;
+			color: $gray-300;
+			background-color: $light;
+			font-size: 14px;
+			line-height: (18/14);
+			margin-bottom: 10px;
+			padding: 5px 16px 7px;
+			margin-left: 10px;
+			&:hover,
+			&.active{ color: $white; }
+		}
+	}
+	/* helpVisualWidget styles */
+	&.helpVisualWidget{
+		overflow: hidden;
+		padding: 22px 10px 29px;
+		@include pseudo(before, 0, 0, 0, 0);
+		&:before{
+			@extend .inaccessible;
+			background-color: rgba($dark, 0.7);
+		}
+		.align{ z-index: 1; }
+		h3, .h3{
+			color: inherit;
+			font-size: 16px;
+			line-height: (26/16);
+			margin-bottom: 13px;
+		}
+		.btn{
+			vertical-align: top;
+			font-size: 12px;
+			min-width: 120px;
+			&:before{ padding: 8px 10px; }
+		}
+		.btnText{ padding: 8px 10px; }
+	}
+	/* widgetShare styles */
+	&.widgetShare{
+		border: 1px solid $border-color;
+		margin-top: 13px;
+		padding: 22px 29px 10px;
+		h3, .h3{
+			font-size: 24px;
+			margin-bottom: 24px;
+		}
+	}
+	/* widgetProfilerInfo styles */
+	&.widgetProfilerInfo{
+		border: 1px solid $border-color;
+		font-size: 14px;
+		line-height: (24/14);
+		padding: 29px 10px 0;
+		.picWrap{ margin-bottom: 20px; }
+		h3, .h3{ margin-bottom: 11px; }
+		p{ margin-bottom: 23px; }
+	}
+}
+/* ---------------------------------------------------------
+	 widgetFormtHead styles
+---------------------------------------------------------*/
+.widgetFormtHead{
+	color: $white;
+	overflow: hidden;
+	margin: -30px -30px 30px;
+	padding: 16px 10px 21px;
+	font-size: 12px;
+	.icn{
+		background-image: linear-gradient(90deg, rgba($white,0.5) 0%, rgba($white,0.5) 100%);
+		background-repeat: no-repeat;
+		background-position: 100% calc(50%  + 2px);
+		background-size: 1px 44px;
+		padding: 3px 15px 0;
+		font-size: 30px;
+		width: 67px;
+		margin-right: 16px;
+	}
+	h3, .h3{
+		color: inherit;
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.textTitle{ margin-bottom: 3px; }
+	.wrap{
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+/* ---------------------------------------------------------
+	 aboutIntroBlock styles
+---------------------------------------------------------*/
+.aboutIntroBlock{
+	padding-top: 34px;
+	padding-bottom: 34px;
+	.blockH{ margin-bottom: 22px; }
+}
+/* ---------------------------------------------------------
+	 quoteFormOpener styles
+---------------------------------------------------------*/
+.quoteFormOpener{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	transition: all 0.5s ease;
+	&[aria-expanded="true"]{
+		transform: scaleX(-1);
+		right: 272px;
+	}
+}
+/* ---------------------------------------------------------
+	 widgetQuoteFormCollapse styles
+---------------------------------------------------------*/
+.widgetQuoteFormCollapse{
+	position: absolute;
+	right: 0;
+	overflow: visible !important;
+	display: block !important;
+	transition: transform 0.3s ease !important;
+	transform: translateX(100%);
+	top: 25px;
+	@include size(290px, auto !important);
+	&.show,
+	&.collapsing{ transform: translateX(0); }
+}
+/* ---------------------------------------------------------
+	 servicesBlock styles
+---------------------------------------------------------*/
+.servicesBlock{ .headingHead{ margin-bottom: 25px; } }
+/* ---------------------------------------------------------
+	 serviceColumn styles
+---------------------------------------------------------*/
+.serviceColumn{
+	@extend %transition;
+	z-index: 1;
+	color: inherit;
+	min-height: 260px;
+	margin-bottom: 30px;
+	&.hover{
+		@extend .hasShadow;
+		color: $white;
+		z-index: 2;
+		.columnBgCover{
+			opacity: 1;
+			visibility: visible;
+			transform: scale(1);
+		}
+		.icn,
+		h3, .h3{ color: inherit; }
+	}
+	.align{ padding: 35px 15px; }
+	.icn{
+		font-size: 36px;
+		margin-bottom: 26px;
+	}
+	h3, .h3{
+		@extend %transition;
+		margin-bottom: 12px;
+	}
+	.columnBgCover{
+		@extend %transition;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		opacity: 0;
+		visibility: hidden;
+		transform-origin: 50% 50% 0;
+		transform: scale(1.05);
+		@include size(100%);
+		@include pseudo(before, 0, 0, 0, 0);
+		&:before{ opacity: 0.9; }
+	}
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 stepsDescrBlock styles
+---------------------------------------------------------*/
+.stepsDescrBlock{
+	/* stepsDescrBlock04 styles */
+	&.stepsDescrBlock04{
+		.alignleft{ margin: 0 0 30px; }
+	}
+	.headingHead{ margin-bottom: 43px; }
+}
+/* ---------------------------------------------------------
+	 stepsGuideList styles
+---------------------------------------------------------*/
+.stepsGuideList{
+	counter-reset: item;
+	> li{
+		counter-increment: item;
+		position: relative;
+		margin-top: 100px;
+		@include pseudo(before, auto, auto, 100%, 50%);
+		&:first-child{
+			margin-top: 0;
+			&:before{
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+		&:before{
+			background-color: rgba($black, 0.1);
+			transform: translate(-50%, -50%);
+			@include size(1px, 50px);
+		}
+	}
+	.icn{
+		@extend %transition;
+		border: 4px solid $white;
+		margin-bottom: 25px;
+		font-size: 30px;
+		@include size(100px);
+	}
+	h3, .h3{
+		margin-bottom: 12px;
+		&:before{ content: counters(item, ".", decimal-leading-zero) ". "; }
+	}
+}
+/* ---------------------------------------------------------
+	 filterList styles
+---------------------------------------------------------*/
+.filterList{
+	overflow: hidden;
+	margin-bottom: 0;
+	padding-right: 15px;
+	padding-top: 37px;
+	li{
+		position: relative;
+		@include pseudo(after, 100%, 0, -999px, auto);
+		&:after{
+			width: 2px;
+			transform-origin: 0 0 0;
+			transform: scaleY(0);
+		}
+		&.active{
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 15px;
+			box-shadow: 0 5px 5px -3px rgba($black, 0.1);
+			&:after{ transform: scaleY(1); }
+			a{ &:after{ transform: scaleX(1); } }
+		}
+	}
+	a{
+		color: inherit;
+		display: block;
+		position: relative;
+		padding: 5px 15px;
+		@include pseudo(after, auto, 0, 0, 0);
+		&.active{
+			&:after{ transform: scaleX(1); }
+		}
+		&:after{
+			@extend %transition;
+			transform-origin: 50% 0 0;
+			transform: scaleX(0);
+			height: 2px;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 filtersNavTabs styles
+---------------------------------------------------------*/
+.filtersNavTabs{
+	&.nav-tabs{
+		border: 0;
+		margin-bottom: 10px;
+		.nav-item{
+			flex-grow: 1;
+			flex-basis: 0;
+			min-width: 50%;
+			margin: 0 -1px -1px 0;
+			&:first-child{
+				.nav-link{ border-top-left-radius: $border-radius; }
+				+ .nav-item{
+					.nav-link{ border-top-right-radius: $border-radius; }
+				}
+			}
+			&:last-child{
+				.nav-link{ border-radius: 0 0 $border-radius $border-radius; }
+			}
+		}
+		.nav-link{
+			color: inherit;
+			padding: 4px 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			position: relative;
+			&:after{ @extend %transition; }
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 prejectsListingBlock styles
+---------------------------------------------------------*/
+.prejectsListingBlock{
+	/* prejectsListingBlock02 styles */
+	&.prejectsListingBlock02{
+		z-index: 1;
+		@include pseudo(before, 0, 0, auto, 0);
+		&:before{
+			z-index: -1;
+			background-color: $light;
+			bottom: 35%;
+		}
+	}
+	.headingHead{ margin-bottom: 15px; }
+}
+/* ---------------------------------------------------------
+	 prPostColumn styles
+---------------------------------------------------------*/
+.prPostColumn{
+	color: inherit;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 15px;
+	/* prPostColumn02 styles */
+	&.prPostColumn02{
+		.prColumnBgCover{
+			padding-top: 0;
+			height: 230px;
+		}
+	}
+	/* prPostColumnInGallery styles */
+	&.prPostColumnInGallery{
+		.prColumnBgCover{
+			padding-top: 0;
+			height: 270px;
+			@include pseudo(before, 0, 0, 0, 0);
+			&:before{
+				@extend %transition;
+				background-color: $black;
+				opacity: 0.6;
+			}
+		}
+	}
+	/* galleryHeightLarge styles */
+	&.galleryHeightLarge{
+		.prColumnBgCover{
+			padding-top: 0;
+			height: 270px;
+		}
+	}
+	/* prPostColumnwTrow styles */
+	&.prPostColumnwTrow{
+		width: 270px;
+		.prColumnBgCover{
+			padding-top: 0;
+			height: 200px;
+		}
+	}
+	&.hasOverlay{
+		&.hover{
+			.prColumnBgCover{
+				&:before{ opacity: 0; }
+			}
+		}
+		.prColumnBgCover{
+			@include pseudo(before, 0, 0, 0, 0);
+			&:before{
+				@extend %transition;
+				background-color: $black;
+				opacity: 0.4;
+			}
+		}
+	}
+	&.prPostColumnMbSmall{ margin-bottom: 12px; }
+	/* prPostColumnMedium styles */
+	&.prPostColumnMedium{
+		.prColumnBgCover{
+			padding-top: 0;
+			height: 260px;
+		}
+	}
+	&.hover{
+		.prPostCaption{ transform: translateY(0); }
+		.prColumnBgCover{ transform: scale(1.2); }
+	}
+	.prColumnBgCover{
+		@extend %transition;
+		transform: scale(1);
+		transform-origin: 50% 50% 0;
+		width: 100%;
+		padding-top: 67.5%;
+	}
+	.prPostCaption{
+		@extend %transition;
+		position: absolute;
+		left: 20px;
+		right: 20px;
+		bottom: 20px;
+		padding: 16px 20px 17px;
+		transform: translateY(200%);
+	}
+	.hTitle{ letter-spacing: normal; }
+	h3, .h3{
+		margin-bottom: 0;
+		font-size: 18px;
+	}
+}
+/* ---------------------------------------------------------
+	 clientsTestimonialBlock styles
+---------------------------------------------------------*/
+.clientsTestimonialBlock{
+	.headingHead{ margin-bottom: 15px; }
+	.separator{
+		margin-top: 16px;
+		margin-bottom: 19px;
+	}
+	.imgHolder{ margin: 5px 0 0; }
+}
+/* ---------------------------------------------------------
+	 clientQuote styles
+---------------------------------------------------------*/
+.clientQuote{
+	q{
+		quotes: none;
+		margin-bottom: 20px;
+		&:after,
+		&:before{ display: none; }
+	}
+	cite{ font-style: normal; }
+	.quoteTitle{ margin-bottom: 10px; }
+	h3, .h3{
+		font-family: $font-family-sans-serif;
+		margin-bottom: 7px;
+	}
+	h5, .h5{
+		font-family: $font-family-sans-serif;
+		color: $gray-200;
+		margin-bottom: 0;
+	}
+}
+/* ---------------------------------------------------------
+	 ratingStarList styles
+---------------------------------------------------------*/
+.ratingStarList{
+	color: $gray-200;
+	font-size: 12px;
+	line-height: 1;
+	/* ratingStarList02 , ratingStarList03 styles */
+	&.ratingStarList02,
+	&.ratingStarList03{
+		font-size: 16px;
+		> li{
+			margin-right: 7px;
+			margin-left: 0;
+			&.active{ color: $warning; }
+		}
+	}
+	&.ratingStarList03{
+		font-size: 12px;
+		> li{
+			margin-left: 1px;
+			margin-right: 1px;
+		}
+	}
+	> li{ margin-left: 3px; }
+}
+/* ---------------------------------------------------------
+	 testimonialSwitcherSlider , testimonialSwitcherSlider02 styles
+---------------------------------------------------------*/
+.testimonialSwitcherSlider,
+.testimonialSwitcherSlider02{
+	width: 100%;
+	padding-right: 50px;
+	.slick-slide{
+		transition: transform 0.7s ease, opacity 0.7s ease;
+		width: 40px;
+		margin-right: 16px;
+		margin-bottom: 25px;
+		transform: translateY(15px);
+		&.slick-current{
+			width: 55px;
+			transform: translateY(0);
+			.testimonialSwitcherPicWrap{ transform: scale(1); }
+		}
+	}
+	.slick-arrow{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		color: $gray-200;
+		font-size: 20px;
+		margin-top: -12px;
+		right: -2px;
+	}
+	.slickPrev{ margin-right: 24px; }
+}
+/* ---------------------------------------------------------
+	 testimonialSwitcherSlider02 styles
+---------------------------------------------------------*/
+.testimonialSwitcherSlider02{
+	max-width: 290px;
+	padding: 27px 35px 0;
+	margin-bottom: -79px;
+	.slick-slide{
+		margin: 0 15px 100px;
+		opacity: 0.5;
+		&:hover{ opacity: 0.8; }
+		&,
+		&.slick-current{
+			transform: none;
+			width: 46px;
+		}
+		&.slick-current{
+			opacity: 1;
+			.testimonialSwitcherPicWrap{
+				transform: none;
+				box-shadow: 0 27px 43px rgba($clr1, 0.15);
+			}
+		}
+	}
+	.slick-arrow{
+		right: auto;
+		margin-top: -36px;
+		font-size: 30px;
+	}
+	.slickPrev{
+		margin-right: 0;
+		left: 0;
+	}
+	.slickNext{ right: 0; }
+}
+/* ---------------------------------------------------------
+	 testimonialSwitcherPicWrap styles
+---------------------------------------------------------*/
+.testimonialSwitcherPicWrap{
+	@extend %transition;
+	overflow: hidden;
+	transform-origin: 0 0 0;
+	transform: scale(0.75);
+	@include size(55px);
+	/* testimonialSwitcherPicWrap02 styles */
+	&.testimonialSwitcherPicWrap02{
+		transition: none;
+		transform: none;
+		@include size(46px);
+	}
+	img{ max-width: none; }
+}
+/* ---------------------------------------------------------
+	 videoBlockWrap styles
+---------------------------------------------------------*/
+.videoBlockWrap{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	@include size(50%, 100%);
+	/* videoBlockWrap03 styles */
+	&.videoBlockWrap03{
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	&.hasOverlay{
+		&.hover{
+			.videoBlockBgCover{
+				&:before{ background-color: rgba($black, 0.2); }
+			}
+		}
+		.videoBlockBgCover{
+			@include pseudo(before, 0, 0, 0, 0);
+			&.overlayThemeColor{
+				&.hover{	
+					&:before{ opacity: 0.5; }
+				}
+				&:before{ opacity: 0.7; }
+			}
+			&:before{
+				@extend %transition;
+				@extend .inaccessible;
+				background-color: rgba($black, 0.4);
+			}
+		}
+	}
+	.videoBlockBgCover{
+		left: 0;
+		top: 0;
+		@include size(100%);
+	}
+}
+/* ---------------------------------------------------------
+	 btnPlay styles
+---------------------------------------------------------*/
+.btnPlay{
+	left: 50%;
+	top: 50%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+	background-clip: padding-box;
+	border: 10px solid rgba($white, 0.2);
+	@include size(80px);
+	/* btnPlay02 styles */
+	&.btnPlay02{
+		background-color: transparent;
+		font-size: 61px;
+		&:after{ display: none; }
+	}
+	/* btnPlay04 styles */
+	&.btnPlay04{
+		border-width: 6px;
+		transform: none;
+		left: auto;
+		top: auto;
+		&:hover{ border-width: 10px; }
+	}
+	&:before{ display: block; }
+	&:after{
+		content: '';
+		display: block;
+		transform: translateX(3px);
+		@include triangle(30px 22px, $white, right);
+	}
+}
+/* ---------------------------------------------------------
+	 ltPostsBlock styles
+---------------------------------------------------------*/
+.ltPostsBlock{
+	.headingHead{ margin-bottom: 47px; }
+}
+/* ---------------------------------------------------------
+	 ltPostColumn styles
+---------------------------------------------------------*/
+.ltPostColumn{
+	color: inherit;
+	margin-bottom: 30px;
+	overflow: hidden;
+	/* ltPostColumn03 styles */
+	&.ltPostColumn03{
+		h3, .h3{
+			font-size: $h3-font-size;
+			line-height: (30/22);
+		}
+		.descriptionWrap{ overflow: hidden; }
+	}
+	/* ltPostColumn05 styles */
+	&.ltPostColumn05{
+		overflow: hidden;
+		height: 280px;
+		&.hover{
+			.ltPostBgCoverImage{
+				&:before{
+					opacity: 0.8;
+					visibility: visible;
+				}
+			}
+			.descriptionWrap{
+				opacity: 1;
+				visibility: visible;
+				transform: translateY(0);
+			}
+			h3, .h3{
+				color: inherit;
+				a{ &:hover{ color: $black; } }
+			}
+		}
+		h3, .h3{
+			color: inherit;
+			line-height: (30/22);
+			margin-bottom: 5px;
+			a{ &:hover{ color: $black; } }
+		}
+		.descriptionWrap{
+			@extend %transition;
+			left: 0;
+			top: 0;
+			z-index: 2;
+			transform: translateY(120%);
+			opacity: 0;
+			visibility: hidden;
+			padding: 23px 28px;
+		}
+		.posterTagline{
+			color: inherit;
+			a{ &:hover{ color: $black; } }
+		}
+		.btnMore{
+			color: inherit;
+			&:hover{ color: $black; }
+		}
+	}
+	&.hover{
+		.aligncenter,
+		.alignleft{ transform: scale(1.05); }
+		.time{ transform: translateY(-36px); }
+	}
+	.alignleft,
+	.aligncenter{
+		@extend %transition;
+		transform: scale(1);
+		transform-origin: 50% 50% 0;
+	}
+	.aligncenter{
+		margin-bottom: 23px;
+		img{
+			max-width: none;
+			width: 100%;
+		}
+	}
+	.alignleft{
+		width: 70px;
+		margin: 8px 15px 0 0;
+	}
+	h3, .h3{
+		@extend %transition;
+		line-height: (30/22);
+		margin-bottom: 10px;
+		+ .btnMore{ margin-top: 10px; }
+	}
+	.time{
+		@extend %transition;
+		transform: translateY(0);
+		padding: 3px 8px;
+		margin-bottom: 5px;
+	}
+	.textLarge{
+		font-size: 17px;
+		line-height: 1;
+	}
+	.posterTagline{
+		color: $gray-200;
+		font-size: 14px;
+		line-height: (18/14);
+		margin-bottom: 10px;
+		a{ color: inherit; }
+	}
+	.sep{
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.ltPostBgCoverImage{
+		left: 0;
+		top: 0;
+		@include pseudo(before, 0, 0, 0, 0);
+		&:before{
+			@extend %transition;
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+	p{ margin-bottom: 23px; }
+}
+/* ---------------------------------------------------------
+	 pageFooterAreaWrap styles
+---------------------------------------------------------*/
+.pageFooterAreaWrap{
+	color: $gray-200;
+	z-index: 1;
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{ background-color: rgba($dark, 0.9); }
+	.separator{
+		border-color: rgba($white, 0.1);
+		margin-top: 4px;
+		margin-bottom: 48px;
+	}
+	.pageFooterWrapHolder{ z-index: 2; }
+	.col{ margin-bottom: 30px; }
+}
+/* ---------------------------------------------------------
+	 subscribeAsideBlock styles
+---------------------------------------------------------*/
+.subscribeAsideBlock{
+	padding-top: 42px;
+	padding-bottom: 42px;
+	h3, .h3{ margin-bottom: 10px; }
+	.input-group{ margin-top: 17px; }
+	.btn{
+		height: $input-height;
+		.btnText,
+		&:before{
+			padding-top: 8px;
+			padding-bottom: 8px;
+			height: inherit;
+		}
+	}
+	.form-control{ border-color: $white; }
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 ftAddress styles
+---------------------------------------------------------*/
+.ftAddress{
+	font: inherit;
+	margin-bottom: 20px;
+}
+/* ---------------------------------------------------------
+	 adrList styles
+---------------------------------------------------------*/
+.adrList{
+	li{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 6px;
+	}
+	.icn{
+		width: 16px;
+		font-size: 14px;
+		margin-right: 9px;
+		margin-top: 6px;
+	}
+	a{
+		color: inherit;
+		&:hover{ color: $white; }
+	}
+}
+/* ---------------------------------------------------------
+	 pageFooter styles
+---------------------------------------------------------*/
+#pageFooter{
+	padding-top: 60px;
+	.logo{
+		margin-right: 0;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%);
+	}
+	h3, .h3{
+		margin-top: 7px;
+		margin-bottom: 27px;
+	}
+	p{
+		a{
+			color: inherit;
+			&:hover{ color: $white; }
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 ftLinksNav styles
+---------------------------------------------------------*/
+.ftLinksNav{
+	li{
+		margin-bottom: 10px;
+		&.active{ a{ color: $white; } }
+	}
+	a{
+		color: inherit;
+		&:hover{ color: $white; }
+	}
+}
+/* ---------------------------------------------------------
+	 ftSocialLinks styles
+---------------------------------------------------------*/
+.ftSocialLinks{
+	> li{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+		> a{
+			color: inherit;
+			&:hover{ color: $white; }
+		}
+	}
+	.icn{
+		margin-right: 20px;
+		@include size(18px, 16px);
+	}
+}
+/* ---------------------------------------------------------
+	 wcuBlock styles
+---------------------------------------------------------*/
+.wcuBlock{
+	.headingHead{ margin-bottom: 24px; }
+	.btn{ min-width: 160px; }
+}
+/* ---------------------------------------------------------
+	 yoeListing styles
+---------------------------------------------------------*/
+.yoeListing{
+	> li{
+		margin-bottom: 20px;
+		&.hover{ .icn{ transform: scaleX(-1); } }
+	}
+	h3, .h3{
+		@extend %transition;
+		margin-bottom: 0;
+	}
+	.titleWrap{ margin-bottom: 10px; }
+	.icn{
+		@extend %transition;
+		font-size: 30px;
+		width: 30px;
+		margin-right: 17px;
+		transform: scaleX(1);
+	}
+}
+/* ---------------------------------------------------------
+	 wcuBlockImageHolder styles
+---------------------------------------------------------*/
+.wcuBlockImageHolder{
+	&.hasOverlay{
+		@include pseudo(before, 0, 0, 0, 0);
+		&:before{
+			@extend .inaccessible;
+			border-radius: inherit;
+			background-color: rgba($black, 0.4);
+		}
+	}
+	/* wcuBlockVideoImage styles */
+	&.wcuBlockVideoImage{
+		@include pseudo(after, 50%, 100%, auto, auto);
+		&:after{
+			z-index: -1;
+			background: repeating-radial-gradient(
+				circle,
+				$white,
+				$white 39px,
+				$light 39px, 
+				$light 40px
+			);
+			border-radius: 100%;
+			transform: translate(50%, -50%);
+			@include size(470px);
+		}
+		.btnPlay{
+			&:hover{ background-color: $warning; }
+		}
+	}
+	img{ vertical-align: top; }
+}
+/* ---------------------------------------------------------
+	 mkCallAside styles
+---------------------------------------------------------*/
+.mkCallAside{
+	min-height: 250px;
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{
+		@extend .inaccessible;
+		background-color: rgba($black, 0.5);
+	}
+	.mkCallAsideHolder{
+		z-index: 2;
+		min-height: inherit;
+		@include v-align(inherit, middle, before);
+		> .align{
+			max-width: none;
+			width: 100%;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+	h2, .h2{
+		color: inherit;
+		margin-bottom: 10px;
+	}
+	.btn{
+		font-size: 17px;
+		line-height: 1;
+	}
+}
+/* ---------------------------------------------------------
+	 wwdTabsetAreaWrap styles
+---------------------------------------------------------*/
+.wwdTabsetAreaWrap{
+	overflow: hidden;
+	border: 1px solid $border-color;
+	border-bottom-right-radius: $border-radius;
+	border-bottom-left-radius: $border-radius;
+	/* wwdTabsetAreaWrap05 , shpTabsetAreaWrap styles */
+	&.wwdTabsetAreaWrap05,
+	&.shpTabsetAreaWrap{ border: 0; }
+	&.shpTabsetAreaWrap{
+		h3, .h3{ margin-bottom: 12px; }
+		p{ margin-bottom: 41px; }
+		.listDefault{
+			padding-left: 10px;
+			margin-bottom: 25px;
+		}
+		.benefitsFeaturedList{
+			h3, .h3{ margin-bottom: 6px; }
+			p{ margin-bottom: 0; }
+		}
+		.reviewsList{
+			p{ margin-bottom: 0; }
+		}
+		.reviewSubmissionForm{
+			h3, .h3{ margin-bottom: 14px; }
+		}
+	}
+	.accSlideHolder{
+		padding: 16px 20px;
+		border-bottom: 1px solid $border-color;
+	}
+	.imageWrap{
+		margin: 0;
+		&.alignright,
+		&.alignleft{ float: none; }
+		img{ vertical-align: top; }
+	}
+	h3, .h3{ margin-bottom: 25px; }
+	.accOpener{
+		cursor: pointer;
+		background-color: transparent;
+		border: solid $border-color;
+		border-width: 0 0 1px;
+		font-size: 15px;
+		line-height: (19/15);
+		padding: 13px 50px 13px 20px;
+		@include pseudo(after, 50%, 15px, auto, auto);
+		&:after{
+			content: "\e61a";
+			transform: translateY(-50%);
+			font-family: 'themify';
+			speak: none;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+		&:focus{ outline: none; }
+		&[aria-expanded="true"]{
+			color: $white;
+			&:after{ content: "\e622"; }
+			&:hover{ color: $white; }
+		}
+	}
+	p{ margin-bottom: 10px; }
+}
+/* ---------------------------------------------------------
+	 wwdTabsetList styles
+---------------------------------------------------------*/
+.wwdTabsetList{
+	&.nav-tabs{
+		border: 0;
+		font-size: 16px;
+		line-height: (20/16);
+		margin-right: -1px;
+		/* wwdTabsetList05 styles */
+		&.wwdTabsetList05{
+			border-bottom: 1px solid $border-color;
+			.nav-item{
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+			.nav-link{
+				width: 100%;
+				margin-left: 0;
+				border: 0;
+				padding: 0 0 15px;
+				@include pseudo(after, auto, 0, 0, 0);
+				&.active{
+					margin-bottom: 0;
+					background-color: transparent;
+					&:after{
+						opacity: 1;
+						visibility: visible;
+						transform: scale(1);
+					}
+				}
+				&:after{
+					height: 3px;
+					transition: inherit;
+					opacity: 0;
+					visibility: visible;
+					transform-origin: 50% 100% 0;
+					transform: scale(0);
+				}
+			}
+		}
+		&.shpTabsetList{
+			border-bottom: 1px solid $border-color;
+			padding-left: 20px;
+			.nav-item{
+				flex-grow: inherit;
+				flex-basis: inherit;
+				margin-right: 10px;
+			}
+			.nav-link{
+				border-radius: $border-radius $border-radius 0 0;
+				border-width: 1px;
+				width: 100%;
+				margin-bottom: -1px;
+				margin-left: 0;
+				overflow: hidden;
+				padding: 12px 14px;
+				@include pseudo(before, 0, 0, auto, 0);
+				&:before{
+					transition: inherit;
+					height: 3px;
+					opacity: 0;
+					visibility: hidden;
+					transform-origin: 50% 0 0;
+					transform: scaleY(0);
+				}
+				&.active{
+					background-color: transparent;
+					color: inherit;
+					border-color: $border-color;
+					border-bottom-color: $white;
+					&:before{
+						opacity: 1;
+						visibility: visible;
+						transform: scaleY(1);
+					}
+				}
+			}
+		}
+		.nav-item{
+			flex-grow: 1;
+			flex-basis: 0;
+			margin-bottom: 0;
+		}
+		.nav-link{
+			color: $gray-300;
+			border-color: $nav-tabs-border-color;
+			border-top-width: 0;
+			width: calc(100% + 1px);
+			margin-left: -1px;
+			padding: 14px 10px;
+			&.active{
+				color: $white;
+				pointer-events: none;
+			}
+		}
+		.icn{
+			font-size: 36px;
+			height: 36px;
+			margin-bottom: 12px;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 videoAside styles
+---------------------------------------------------------*/
+.videoAside{
+	min-height: 250px;
+	@include pseudo(before, 0, 0, 0, 0);
+	&.overlayThemeColor{
+		&.hover{	
+			&:before{ opacity: 0.5; }
+		}
+		&:before{ opacity: 0.7; }
+	}
+	&.hover{ &:before{ background-color: rgba($black, 0.2); } }
+	&:before{
+		@extend %transition;
+		@extend .inaccessible;
+		background-color: rgba($black, 0.4);
+	}
+	.btnPlay{
+		@extend %transition;
+		&:hover{ border-width: 0; }
+	}
+}
+/* ---------------------------------------------------------
+	 pageHeaderTopBar styles
+---------------------------------------------------------*/
+.pageHeaderTopBar{
+	&.pageHeaderTopBar03{ border-bottom: 1px solid $border-color; }
+}
+/* ---------------------------------------------------------
+	 phSocialLinks styles
+---------------------------------------------------------*/
+.phSocialLinks{
+	> li{
+		> a{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $gray-200;
+			border: solid $border-color;
+			border-width: 0 1px;
+			margin-left: -1px;
+			font-size: 10px;
+			@include size(30px, 20px);
+			&:hover{ color: $white; }
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 languageSlctDrop styles
+---------------------------------------------------------*/
+.languageSlctDrop{
+	color: $gray-300;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 10px;
+	.dropdown-toggle{
+		color: inherit;
+		&:after{ vertical-align: middle; }
+		&:hover{ color: $black; }
+	}
+	.icn{ margin-right: 5px; }
+	.dropdown-menu{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.dropdown-item{
+		&:hover,
+		&.active{ color: $white; }
+	}
+}
+/* ---------------------------------------------------------
+	 phAddress styles
+---------------------------------------------------------*/
+.phAddress{
+	font-style: normal;
+	font-size: 12px;
+}
+/* ---------------------------------------------------------
+	 phadrList styles
+---------------------------------------------------------*/
+.phadrList{
+	/* phadrList05 styles */
+	&.phadrList05{
+		li{
+			border-left: 1px solid $border-color;
+			margin-left: 17px;
+			padding-left: 17px;
+			&:first-child{ border-left: 0; }
+		}
+		.textWrap{ min-width: 1px; }
+	}
+	li{
+		display: flex;
+		align-items: flex-start;
+		margin-left: 15px;
+		&.hover{ .icnWrap{ color: $white; } }
+	}
+	.icnWrap{
+		@extend %transition;
+		border: 1px solid $border-color;
+		margin-top: 4px;
+		font-size: 15px;
+		margin-right: 8px;
+		@include size(30px);
+	}
+	.textWrap{ min-width: 94px; }
+	a{ color: inherit; }
+}
+/* ---------------------------------------------------------
+	 pgIcnsWrap styles
+---------------------------------------------------------*/
+.pgIcnsWrap{
+	position: absolute;
+	right: 48px;
+	top: -34px;
+	&.pgIcnsWrap05{ right: 63px; }
+}
+/* ---------------------------------------------------------
+	 pgSearchForm styles
+---------------------------------------------------------*/
+.pgSearchForm{
+	button{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 8px;
+	}
+	.form-control{ padding-right: 50px; }
+}
+/* ---------------------------------------------------------
+	 pgSearchFormOpener styles
+---------------------------------------------------------*/
+.pgSearchFormOpener{
+	border-radius: $border-radius;
+	font-size: 16px;
+	color: $gray-300;
+	border: 1px solid $gray-300;
+	margin-left: 15px;
+	@include size(33px, 28px);
+}
+/* ---------------------------------------------------------
+	 pgSearchCollpase styles
+---------------------------------------------------------*/
+.pgSearchCollpase{
+	transition: transform 0.5s ease !important;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	height: auto !important;
+	width: 63vw;
+	overflow: visible !important;
+	transform: scaleX(0);
+	transform-origin: 100% 0 0;
+	margin-top: 6px;
+	&.show,
+	&.collapsing{ transform: scaleX(1); }
+}
+/* ---------------------------------------------------------
+	 bsSwitcherAsideWrap styles
+---------------------------------------------------------*/
+.bsSwitcherAsideWrap{ border-bottom: 1px solid $border-color; }
+/* ---------------------------------------------------------
+	 bsSwitcher styles
+---------------------------------------------------------*/
+.bsSwitcher{
+	counter-reset: item;
+	margin-top: -18px;
+}
+/* ---------------------------------------------------------
+	 bsSSlide styles
+---------------------------------------------------------*/
+.bsSSlide{
+	margin-top: 16px;
+	cursor: pointer;
+	position: relative;
+	@include pseudo(after, auto, 0, 0, 0);
+	@include pseudo(before, auto, auto, 100%, 50%);
+	&:after{
+		@extend %transition;
+		opacity: 0;
+		visibility: hidden;
+		transform: scale(0);
+		transform-origin: 50% 100% 0;
+		height: 4px;
+	}
+	&:before{
+		@extend %transition;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateX(-50%) scaleY(0);
+		transform-origin: 0 100% 0;
+		margin-bottom: -2px;
+		@include triangle(29px 16px, $white, up);
+	}
+	&.slick-current{
+		&:after{
+			opacity: 1;
+			visibility: visible;
+			transform: scale(1);
+		}
+		&:before{
+			opacity: 1;
+			visibility: visible;
+			transform: translateX(-50%) scaleY(1);
+		}
+		.holderWrap{ color: $dark; }
+	}
+	.holderWrap{
+		@extend %transition;
+		color: $gray-200;
+		border: solid $border-color;
+		border-width: 1px 1px 0;
+		font-size: 12px;
+		line-height: 1;
+		height: 50px;
+		&:hover{ color: $gray-800; }
+	}
+}
+/* ---------------------------------------------------------
+	 servicesVisualColumnsBlock styles
+---------------------------------------------------------*/
+.servicesVisualColumnsBlock{
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{
+		@extend .inaccessible;
+		background-color: rgba($black, 0.75);
+	}
+	.holder{ z-index: 2; }
+	.col{
+		+ .col{ border-top: 1px solid rgba($white, 0.2); }
+	}
+}
+/* ---------------------------------------------------------
+	 svcColumn styles
+---------------------------------------------------------*/
+.svcColumn{
+	@extend %transition;
+	overflow: hidden;
+	min-height: 400px;
+	&.hover{
+		background-color: rgba($black, 0.2);
+		.btnWrap{
+			transform: translateY(0);
+			margin-bottom: 15px;
+			margin-top: 26px;
+		}
+	}
+	.align{ padding: 20px 25px 54px; }
+	.icn{
+		font-size: 36px;
+		margin-bottom: 26px;
+	}
+	h3, .h3{
+		text-transform: capitalize;
+		color: inherit;
+		margin-bottom: 12px;
+	}
+	.btnWrap{
+		transition: all 0.5s ease;
+		margin-top: 0;
+		margin-bottom: -45px;
+		transform: translateY(555px);
+	}
+	.btn{ min-width: 160px; }
+	p{ margin-bottom: 17px; }
+}
+/* ---------------------------------------------------------
+	 prjctDescrColumn styles
+---------------------------------------------------------*/
+.prjctDescrColumn{
+	margin-bottom: 24px;
+	h3, .h3{ margin-bottom: 18px; }
+	.colImage{ z-index: 1; }
+	.colDescr{ z-index: 2; }
+	p{ margin-bottom: 26px; }
+}
+/* ---------------------------------------------------------
+	 postTitleTextTag styles
+---------------------------------------------------------*/
+.postTitleTextTag{
+	color: $gray-200;
+	font-size: 14px;
+	line-height: (18/14);
+	margin-bottom: 12px;
+}
+/* ---------------------------------------------------------
+	 prjctColumnImageWrap styles
+---------------------------------------------------------*/
+.prjctColumnImageWrap{
+	&.alignleft{ margin: 0 0 15px; }
+	&.alignright{ margin: 0 0 15px; }
+}
+/* ---------------------------------------------------------
+	 prjctTextHolder styles
+---------------------------------------------------------*/
+.prjctTextHolder{
+	@extend %transition;
+	padding: 0 20px 24px;
+	z-index: 1;
+}
+/* ---------------------------------------------------------
+	 prjctCatagoriesSlider styles
+---------------------------------------------------------*/
+.prjctCatagoriesSlider{
+	.slick-list{
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+}
+/* ---------------------------------------------------------
+	 prjctSSlide styles
+---------------------------------------------------------*/
+.prjctSSlide{
+	padding-left: 12px;
+	padding-right: 12px;
+	&.slick-current{
+		.pSsImage{
+			&:before{
+				opacity: 0.7;
+				visibility: visible;
+			}
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 pSsImage styles
+---------------------------------------------------------*/
+.pSsImage{
+	overflow: hidden;
+	cursor: pointer;
+	@include size(95.5px);
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{
+		@extend %transition;
+		opacity: 0;
+		visibility: hidden;
+	}
+	&:hover{ &:before{ opacity: 0.2; } }
+}
+/* ---------------------------------------------------------
+	 filtersTabContentWrap styles
+---------------------------------------------------------*/
+.filtersTabContentWrap{
+	> .tab-pane{
+		display: block !important;
+		transition: none !important;
+		&:not(.show){
+			@extend .inaccessible;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 hwwCBlock styles
+---------------------------------------------------------*/
+.hwwCBlock{
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{
+		@extend .inaccessible;
+		background-color: rgba($black, 0.75);
+	}
+	.holder{ z-index: 2; }
+	.headingHead{
+		p{ margin-bottom: 38px; }
+	}
+	h2, .h2{ color: inherit; }
+	.btn{ min-width: 160px; }
+}
+/* ---------------------------------------------------------
+	 hwwColumnsList styles
+---------------------------------------------------------*/
+.hwwColumnsList{
+	color: $body-color;
+	counter-reset: item;
+	margin: 27px #{$grid-gutter-width / -2} 0;
+	> li{
+		counter-increment: item;
+		padding-left: #{$grid-gutter-width / 2};
+		padding-right: #{$grid-gutter-width / 2};
+		display: flex;
+		width: 100%;
+		margin-bottom: 60px;
+		&.hover{
+			.align{
+				&:before{ transform: translateY(-70%); }
+			}
+		}
+	}
+	h3, .h3{ margin-bottom: 12px; }
+	.wrap{ padding: 20px 20px 25px; }
+	.align{
+		&:before{
+			@extend %transition;
+			content: counters(item, ".", decimal-leading-zero) " ";
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: $border-radius;
+			color: $white;
+			transform: translateY(-50%);
+			font: 500 30px/1 $font-roboto;
+			margin-top: -20px;
+			margin-bottom: -17px;
+			@include size(55px);
+		}
+	}
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 shareWTitleWrap styles
+---------------------------------------------------------*/
+.shareWTitleWrap{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	&.shareWTitleWrap02{
+		border: solid $border-color;
+		border-width: 1px 0;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		.shareTitle{ margin-right: 20px; }
+	}
+	.shareTitle{ margin-right: 0; }
+}
+/* ---------------------------------------------------------
+	 socialLinksSimple styles
+---------------------------------------------------------*/
+.socialLinksSimple{
+	font-size: 16px;
+	line-height: 1;
+	/* socialLinksSimple02 styles */
+	&.socialLinksSimple02{
+		li{
+			margin-right: 27px;
+			margin-left: 0;
+		}
+	}
+	/* socialLinksSimpleWhite styles */
+	&.socialLinksSimpleWhite{
+		a{
+			color: inherit;
+			&:hover{ color: $info; }
+		}
+	}
+	li{ margin-left: 20px; }
+	a{ color: $gray-200; }
+}
+/* ---------------------------------------------------------
+	 bannerBottomAsideBlock styles
+---------------------------------------------------------*/
+.bannerBottomAsideBlock{
+	z-index: 3;
+	margin-top: -5px;
+	.holderWrap{
+		overflow: hidden;
+		padding: 39px 15px 20px;
+	}
+}
+/* ---------------------------------------------------------
+	 bannerAsideServicesList styles
+---------------------------------------------------------*/
+.bannerAsideServicesList{
+	> li{
+		margin-bottom: 15px;
+		&.hover{
+			.icn{ transform: scaleX(-1); }
+		}
+	}
+	.titleWrap{ margin-bottom: 17px; }
+	h3, .h3{
+		@extend %transition;
+		margin-bottom: 0;
+	}
+	.icn{
+		@extend %transition;
+		transform: scaleX(1);
+		font-size: 30px;
+		width: 30px;
+		margin-right: 11px;
+	}
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 abtIntroAsideBlock styles
+---------------------------------------------------------*/
+.abtIntroAsideBlock{
+	h2, .h2{ margin-bottom: 0; }
+	p{ margin-bottom: 10px; }
+}
+/* ---------------------------------------------------------
+	 swwdPost styles
+---------------------------------------------------------*/
+.swwdPost{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	&.hover{
+		.aligncenter{ transform: scale(1.05); }
+	}
+	.aligncenter{
+		@extend %transition;
+		transform-origin: 50% 50% 0;
+		transform: scale(1);
+		margin: 0 -10px 26px;
+		img{ max-width: none; }
+	}
+	h3, .h3{ margin-bottom: 12px; }
+}
+/* ---------------------------------------------------------
+	 swwdColumnsSlider styles
+---------------------------------------------------------*/
+.swwdColumnsSlider,
+.swwdColumnsSliderType2{
+	.slickBars{ padding-top: 9px; }
+}
+/* ---------------------------------------------------------
+	 hiwStepsList styles
+---------------------------------------------------------*/
+.hiwStepsList{
+	counter-reset: item;
+	> li{
+		counter-increment: item;
+		position: relative;
+		padding-left: 78px;
+		@include pseudo(before, 0, auto, auto, 0);
+		@include pseudo(after, 15px, auto, auto, 0);
+		&.hover{ &:before{ color: $white; } }
+		&:last-child{ &:after{ display: none; } }
+		&:after{
+			@extend .inaccessible;
+			background-color: $border-color;
+			left: 27px;
+			@include size(1px, calc(100% + 20px));
+		}
+		&:before{
+			@extend %transition;
+			@extend .inaccessible;
+			@extend .hasShadow;
+			content: counters(item, ".", decimal-leading-zero) " ";
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 100%;
+			z-index: 1;
+			background-color: $white;
+			font: 500 25px/1 $font-roboto;
+			margin-top: 5px;
+			@include size(56px);
+		}
+		+ li{ margin-top: 20px; }
+	}
+	h3, .h3{ margin-bottom: 12px; }
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 npProjectsSlider styles
+---------------------------------------------------------*/
+.npProjectsSlider{
+	max-width: 270px;
+	.slick-list{ overflow: visible !important; }
+	.slick-arrow{
+		position: absolute;
+		bottom: 0;
+		color: $body-color;
+		font-size: 26px;
+		margin-bottom: 19px;
+		z-index: 2;
+	}
+	.slickPrev{ left: 11px; }
+	.slickNext{ right: 11px; }
+}
+/* ---------------------------------------------------------
+	 npssSlide styles
+---------------------------------------------------------*/
+.npssSlide{
+	@extend %transition;
+	opacity: 0.5;
+	padding-left: 5px;
+	padding-right: 5px;
+	&.slick-current{
+		opacity: 1;
+		.powVisualPost{
+			.textWrap{
+				opacity: 1;
+				visibility: visible;
+				transform: scale(1);
+			}
+		}
+	}
+	.powVisualPost{
+		.textWrap{
+			@extend %transition;
+			transform-origin: 50% 100% 0;
+			transform: scale(0);
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 powVisualPost styles
+---------------------------------------------------------*/
+.powVisualPost{
+	.aligncenter{
+		margin: 0 0 31px;
+		img{ max-width: none; }
+	}
+	h3, .h3{
+		margin-bottom: 11px;
+		font-size: 18px;
+	}
+	h4, .h4{
+		color: $body-color;
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+}
+/* ---------------------------------------------------------
+	 pricingPlansBlock styles
+---------------------------------------------------------*/
+.pricingPlansBlock{
+	.headingHead{ margin-bottom: 46px; }
+}
+/* ---------------------------------------------------------
+	 pricePlanColumn styles
+---------------------------------------------------------*/
+.pricePlanColumn{
+	margin-bottom: 30px;
+	padding: 15px 15px 113px;
+	&.hover{
+		.columnHead{
+			color: $white;
+			h3, .h3,
+			h4, .h4{ color: inherit; }
+		}
+		.chBgCover{
+			opacity: 1;
+			visibility: visible;
+			transform: scale(1);
+		}
+		.btn{ &:hover{ background-color: transparent; } }
+	}
+	.columnHead{
+		@extend %transition;
+		border-radius: $border-radius $border-radius 0 0;
+		overflow: hidden;
+		z-index: 1;
+		margin: -15px -15px 40px;
+		padding: 35px 15px 39px;
+	}
+	h3, .h3{ margin-bottom: 10px; }
+	h4, .h4{
+		color: $body-color;
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	h2, .h2{
+		line-height: 1;
+		margin-bottom: 30px;
+	}
+	.textUnit{
+		color: $gray-200;
+		font-size: 14px;
+		vertical-align: baseline;
+	}
+	.chBgCover{
+		@extend %transition;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+		opacity: 0;
+		visibility: hidden;
+		transform-origin: 50% 50% 0;
+		transform: scale(1.5);
+		@include pseudo(before, 0, 0, 0, 0);
+		&:before{ opacity: 0.8; }
+	}
+	.btn{
+		z-index: 1;
+		left: 0;
+		right: 0;
+		width: 155px;
+		bottom: 52px;
+	}
+}
+/* ---------------------------------------------------------
+	 pricingFeaturesList styles
+---------------------------------------------------------*/
+.pricingFeaturesList{
+	line-height: (30/16);
+	> li{ margin-bottom: 0; }
+	.unFollowed{
+		color: $gray-200;
+		text-decoration: line-through;
+	}
+}
+/* ---------------------------------------------------------
+	 reKtAsideBlock styles
+---------------------------------------------------------*/
+.reKtAsideBlock{
+	min-height: 320px;
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{
+		@extend .inaccessible;
+		background-color: rgba($black, 0.6);
+	}
+	.holder{
+		z-index: 1;
+		min-height: inherit;
+		@include v-align(inherit, middle, before);
+		> .align{
+			width: 100%;
+			padding-top: 31px;
+			padding-bottom: 35px;
+		}
+	}
+	h2, .h2{
+		color: inherit;
+		margin-bottom: 16px;
+	}
+	.btnPlay{ margin-top: 24px; }
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 popItemColumn styles
+---------------------------------------------------------*/
+.popItemColumn{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 30px;
+	&.hMbSmall{
+		h3, .h3{ margin-bottom: 9px; }
+	}
+	&.hover{
+		.popActionsList{
+			opacity: 1;
+			visibility: visible;
+			transform: translateY(0);
+		}
+	}
+	&[data-featured-tag]{
+		@include pseudo(before, 0, auto, auto, 15px);
+		&:before{
+			content: attr(data-featured-tag);
+			color: $white;
+			text-transform: capitalize;
+			border-radius: $border-radius 0 0 0;
+			font-size: 16px;
+			line-height: 1;
+			min-width: 70px;
+			text-align: center;
+			padding: 7px 4px 4px;
+			z-index: 1;
+		}
+		&[data-tag-hot]{
+			&:before{ background-color: $danger; }
+		}
+	}
+	.imageHolder{
+		overflow: hidden;
+		border: 1px solid $border-color;
+		min-height: 356px;
+		margin: 0 -10px 26px;
+		> .wrap{ min-height: inherit; }
+	}
+	h3, .h3{
+		font-size: 20px;
+		margin-bottom: 14px;
+	}
+	h4, .h4{
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	.priceCut{
+		color: $gray-200;
+		font-size: 14px;
+		vertical-align: baseline;
+		text-decoration: line-through;
+	}
+}
+/* ---------------------------------------------------------
+	 popActionsList styles
+---------------------------------------------------------*/
+.popActionsList{
+	@extend %transition;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	font-size: 18px;
+	line-height: 1;
+	margin-left: -10px;
+	margin-right: -10px;
+	bottom: 30px;
+	transform: translateY(200px);
+	> li{
+		padding-left: 10px;
+		padding-right: 10px;
+		> a{
+			color: $body-color;
+			border: 1px solid $border-color;
+			@include size(46px);
+			&:hover{ color: $white; }
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 moreExploreHolder styles
+---------------------------------------------------------*/
+.moreExploreHolder{
+	.btn{
+		vertical-align: top;
+		min-width: 140px;
+	}
+}
+/* ---------------------------------------------------------
+	 breadcrumb styles
+---------------------------------------------------------*/
+.breadcrumb{
+	&.pageBreadcrumb{
+		background-color: transparent;
+		border-radius: 0;
+		font-size: 12px;
+		a{
+			color: $dark;
+			&:hover{ color: $body-color; }
+		}
+		.icn{ margin-right: 3px; }
+	}
+}
+/* ---------------------------------------------------------
+	 pageBdWrapNav styles
+---------------------------------------------------------*/
+.pageBdWrapNav{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	.title{
+		font-size: 18px;
+		line-height: (22/18);
+	}
+}
+/* ---------------------------------------------------------
+	 ctSorterWrapHeader styles
+---------------------------------------------------------*/
+.ctSorterWrapHeader{
+	font-size: 12px;
+	margin-bottom: 18px;
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 viewSorterList styles
+---------------------------------------------------------*/
+.viewSorterList{
+	font-size: 16px;
+	line-height: 1;
+	margin-left: 5px;
+	> li{
+		margin-left: 11px;
+		> a{ color: inherit; }
+	}
+}
+/* ---------------------------------------------------------
+	 dsSortDropdown styles
+---------------------------------------------------------*/
+.dsSortDropdown{
+	.dropdown-toggle{
+		color: inherit;
+		&:after{
+			border-width: 0.35em 0.35em 0;
+			margin-left: 10px;
+			vertical-align: 0.055em;
+		}
+	}
+	.dropdown-item{
+		padding: 0 5px;
+		&.active{ color: $white; }
+	}
+}
+/* ---------------------------------------------------------
+	 pagination styles
+---------------------------------------------------------*/
+.pagination{
+	&.pagePagination{
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-left: -5px;
+		margin-right: -5px;
+		.page-item{
+			margin-left: 5px;
+			margin-right: 5px;
+			+ .page-item{
+				.page-link{ margin-left: 0; }
+			}
+			&:last-child,
+			&:first-child{ .page-link{ border-radius: $border-radius; } }
+			&.active{ .page-link{ color: $white; } }
+		}
+		.page-link{
+			min-width: 30px;
+			background-color: $light;
+			border-radius: $border-radius;
+			&:hover{ color: $white; }
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 getResultsWrap styles
+---------------------------------------------------------*/
+.getResultsWrap{
+	color: $gray-200;
+	font-size: 12px;
+	line-height: 1;
+	.btn{
+		font-size: 14px;
+		line-height: (18/14);
+		margin-right: 5px;
+		&:before{ padding: 4px 15px; }
+	}
+	.btnText{ padding: 4px 15px; }
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 popItemColumn__listView styles
+---------------------------------------------------------*/
+.popItemColumn__listView{
+	border: 1px solid $border-color;
+	margin-bottom: 30px;
+	padding: 21px 20px 28px;
+	.imgHolder{
+		width: 145px;
+		margin: 0 auto 15px;
+	}
+	h2, .h2{
+		font-size: 20px;
+		line-height: (30/20);
+		margin-bottom: 10px;
+	}
+	h3, .h3{
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.btn{
+		vertical-align: top;
+		min-width: 136px;
+		margin-top: 36px;
+	}
+	p{ margin-bottom: 22px; }
+}
+/* ---------------------------------------------------------
+	 filtersSidebarFWrap styles
+---------------------------------------------------------*/
+.filtersSidebarFWrap{
+	left: 0;
+	top: 0;
+	z-index: 999;
+	padding-bottom: 9999px;
+	margin-bottom: -9999px;
+	width: 270px;
+	height: auto !important;
+	transition: transform 0.3s ease-out !important;
+	transform: translateX(-200%);
+	&.show,
+	&.collapsing{
+		transform: translateX(0);
+	}
+	.titleWrap{
+		padding-right: 30px;
+		margin-bottom: 60px;
+	}
+	.btnClose{
+		color: $dark;
+		top: 3px;
+		right: -4px;
+		font-size: 30px;
+		&:hover{ color: $danger; }
+	}
+	.fTitle{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 fSFWHolder styles
+---------------------------------------------------------*/
+.fSFWHolder{ padding: 20px 18px; }
+/* ---------------------------------------------------------
+	 filtersSidebarOpener styles
+---------------------------------------------------------*/
+.filtersSidebarOpener{
+	color: inherit;
+	margin-right: 5px;
+	.icn{ margin-right: 3px; }
+}
+/* ---------------------------------------------------------
+	 detailsImageSlider styles
+---------------------------------------------------------*/
+.detailsImageSlider{
+	margin-top: 5px;
+	.slick-slide{ margin-bottom: 20px; }
+	.imgWrap{
+		overflow: hidden;
+		border: 1px solid $border-color;
+		&[data-featured-tag]{
+			@include pseudo(before, 0, auto, auto, 0);
+			&:before{
+				content: attr(data-featured-tag);
+				color: $white;
+				text-transform: capitalize;
+				border-radius: $border-radius 0 0 0;
+				font-size: 16px;
+				line-height: 1;
+				min-width: 70px;
+				text-align: center;
+				padding: 7px 4px 4px;
+			}
+		}
+		img{ vertical-align: top; }
+	}
+}
+/* ---------------------------------------------------------
+	 disSliderWrap styles
+---------------------------------------------------------*/
+.disSliderWrap{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+/* ---------------------------------------------------------
+	 disSliderWrap styles
+---------------------------------------------------------*/
+.disSliderWrap{
+	.slick-slide{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+/* ---------------------------------------------------------
+	 disImg styles
+---------------------------------------------------------*/
+.disImg{
+	overflow: hidden;
+	border: 1px solid $border-color;
+	width: 100%;
+}
+/* ---------------------------------------------------------
+	 sdbWDescription styles
+---------------------------------------------------------*/
+.sdbWDescription{
+	h1, .h1{
+		font-size: 24px;
+		margin-bottom: 28px;
+	}
+	h2, .h2{ margin-bottom: 29px; }
+	.sep,
+	.priceCut{
+		color: $gray-200;
+		vertical-align: middle;
+	}
+	.sep{
+		font-size: 18px;
+		margin-left: 8px;
+		margin-right: 10px;
+	}
+	.priceCut{
+		text-decoration: line-through;
+		font-size: 24px;
+	}
+	.ratingStarList{ margin-bottom: 35px; }
+	p{ margin-bottom: 38px; }
+}
+/* ---------------------------------------------------------
+	 cartForm styles
+---------------------------------------------------------*/
+.cartForm{
+	margin-bottom: 34px;
+	.quantity,
+	.btn,
+	.btnToCart{
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.btnToCart{
+		border-width: 1px;
+		border-style: solid;
+		color: $dark;
+		font-size: 18px;
+		@include size(48px);
+		&:hover{ color: $white; }
+	}
+	.btn{
+		height: 48px;
+		.btnText{ height: inherit; }
+	}
+}
+/* ---------------------------------------------------------
+	 shpDefinaition styles
+---------------------------------------------------------*/
+.shpDefinaition{
+	color: $gray-200;
+	margin-bottom: 42px;
+	dt{
+		margin-right: 5px;
+	}
+	dd{
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+}
+/* ---------------------------------------------------------
+	 shpTopIntroWrap styles
+---------------------------------------------------------*/
+.shpTopIntroWrap{
+	margin-bottom: 30px;
+}
+/* ---------------------------------------------------------
+	 disSwitcherSlider styles
+---------------------------------------------------------*/
+.disSwitcherSlider{
+	margin-bottom: 30px;
+}
+/* ---------------------------------------------------------
+	 listDefault styles
+---------------------------------------------------------*/
+.listDefault{
+	> li{
+		position: relative;
+		padding-left: 22px;
+		@include pseudo(before, 0, auto, auto, 0);
+		&:before{
+			border-radius: 100%;
+			background-color: currentColor;
+			top: 10px;
+			@include size(7px);
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 benefitsFeaturedList styles
+---------------------------------------------------------*/
+.benefitsFeaturedList{
+	border: solid $border-color;
+	border-width: 1px 0 0;
+	padding-top: 16px;
+	padding-bottom: 0;
+	overflow: hidden;
+	> li{
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: 16px;
+		min-width: 50%;
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+	h3, .h3{ margin-bottom: 6px; }
+	.icn{
+		font-size: 28px;
+		margin-right: 10px;
+		width: 28px;
+	}
+}
+/* ---------------------------------------------------------
+	 reviewsList styles
+---------------------------------------------------------*/
+.reviewsList{
+	> li{
+		overflow: hidden;
+		margin-bottom: 40px;
+	}
+	.alignleft{
+		float: none;
+		width: 75px;
+		margin: 0 0 15px;
+	}
+	.profiler{
+		overflow: hidden;
+		margin-bottom: 19px;
+		@include size(70px);
+	}
+	.descr{ overflow: hidden; }
+	.time{
+		color: $gray-200;
+		font-size: 14px;
+		line-height: (18/14);
+		margin-bottom: 7px;
+	}
+	p{ margin-bottom: 0; }
+}
+/* ---------------------------------------------------------
+	 reviewSubmissionForm styles
+---------------------------------------------------------*/
+.reviewSubmissionForm{
+	h3, .h3{ margin-bottom: 0; }
+	.form-group{ margin-bottom: 36px; }
+	.wrap{ margin-bottom: 15px; }
+	.extraWrap{ margin-bottom: 19px; }
+	.ratingStarList{
+		font-size: 18px;
+		padding-left: 16px;
+		> li{ margin-right: 0; }
+	}
+	textarea{
+		&,
+		&.form-control{
+			resize: none;
+			height: 132px;
+		}
+	}
+	.btn{ min-width: 146px; }
+}
+/* ---------------------------------------------------------
+	 cartTableWrap styles
+---------------------------------------------------------*/
+.cartTableWrap{ margin-bottom: 25px; }
+/* ---------------------------------------------------------
+	 cartTable styles
+---------------------------------------------------------*/
+.cartTable{
+	&.table{
+		min-width: 690px;
+		th,
+		td{
+			padding: 0;
+			border: 1px solid $border-color;
+			vertical-align: middle;
+		}
+		th{
+			@extend .fwMedium;
+			color: $dark;
+			padding: 15px 10px 11px;
+			font-size: 16px;
+		}
+		.tdWrap{ padding: 5px; }
+		tfoot{ .tdWrap{ padding: 10px 9px; } }
+		h3, .h3{ font-size: 16px; }
+		h4, .h4{ font-size: 16px; }
+		h3, .h3,
+		h4, .h4{ margin-bottom: 0; }
+		.col01{ width: 12.7%; }
+		.col02{ width: 38.77%; }
+		.col03{ width: 14.9%; }
+		.col04{ width: 18.32%; }
+		.col05{ width: 14.9%; }
+		.imgWrap{ margin: -5px; }
+		.coupenFormControl{
+			font-size: 14px;
+			line-height: (18/14);
+			margin-right: 10px;
+			padding: 4px 11px;
+			@include size(calc(30% + 10px), 34px);
+		}
+		.btn{
+			font-size: 14px;
+			line-height: (18/14);
+			min-width: 140px;
+			&.btnDefaultOutline{
+				min-width: 1px;
+				width: 30%;
+			}
+			.btnText,
+			&:before{ padding: 7px 10px; }
+		}
+		.wrap1{ width: 70%; }
+	}
+}
+/* ---------------------------------------------------------
+	 cartQuantity styles
+---------------------------------------------------------*/
+.quantityLight{
+	input{
+		border-color: $border-color;
+		font-size: 16px;
+		@include size(80px, 40px);
+		@include placeholder{ color: $gray-200; };
+	}
+	.quantity-button{ font-size: 22px; }
+}
+/* ---------------------------------------------------------
+	 cartTotal styles
+---------------------------------------------------------*/
+.cartTotal{
+	&.table{
+		font-size: 16px;
+		line-height: (20/16);
+		th{
+			@extend .fwMedium;
+			font-size: 22px;
+			border: 0;
+			padding: 0 0 15px;
+		}
+		td{
+			padding: 0;
+			border: 1px solid $border-color;
+		}
+		tfoot{
+			td{ border: 0; }
+			.tdWrap{ padding: 10px 0 0; }
+		}
+		.tdWrap{ padding: 8px 15px; }
+		.textLarge{
+			font-size: 22px;
+			margin-top: 8px;
+			margin-bottom: 8px;
+		}
+		.btn:before,
+		.btnText{ padding: 8px 10px; }
+	}
+}
+/* ---------------------------------------------------------
+	 checkoutAlert styles
+---------------------------------------------------------*/
+.checkoutAlert{
+	&.alert-light{
+		a{ &:hover{ color: $black; } }
+	}
+}
+/* ---------------------------------------------------------
+	 bilingDetailsWrap styles
+---------------------------------------------------------*/
+.bilingDetailsWrap{
+	padding-top: 15px;
+	.form-group{ margin-bottom: 21px; }
+	.formCol{
+		width: 100%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.fLabel{
+		color: $gray-200;
+		margin-bottom: 3px;
+	}
+	h3, .h3{ margin-bottom: 18px; }
+}
+/* ---------------------------------------------------------
+	 confirmationBoxWrap styles
+---------------------------------------------------------*/
+.confirmationBoxWrap{
+	overflow: hidden;
+	border: 1px solid $border-color;
+	margin-top: 29px;
+	padding: 15px 12px;
+	h3, .h3{ margin-bottom: 15px; }
+}
+/* ---------------------------------------------------------
+	 checkoutCountTable styles
+---------------------------------------------------------*/
+.checkoutCountTable{
+	&.table{
+		margin-bottom: 26px;
+		font-size: 12px;
+		th,
+		td{
+			padding: 0;
+			border: 0;
+		}
+		th{
+			@extend .fwMedium;
+			padding-bottom: 7px;
+		}
+		.tdWrap{ padding: 3px 10px 3px 0; }
+		tfoot{
+			.tdWrap{ padding: 23px 10px 0 0; }
+		}
+		.textLarge{ font-size: 16px; }
+		.col01{ width: 75%; }
+		.col02{ width: 25%; }
+	}
+}
+/* ---------------------------------------------------------
+	 custom control styles
+---------------------------------------------------------*/
+.custom-control{
+	padding-left: 32px;
+	.custom-control-input:checked{
+		~ .custom-control-label:after{ background-image: none; }
+		~ .custom-control-label:before{
+			background-color: transparent;
+			box-shadow: none;
+		}
+	}
+	.custom-control-input:focus{
+		~ .custom-control-label:before{ box-shadow: none; }
+	}
+	label{
+		&:before{
+			border: 1px solid $gray-300;
+			background-color: transparent;
+			left: -32px;
+			top: 8px;
+			@include size(12px);
+		}
+		&:after{
+			background-image: none;
+			left: -29px;
+			border-radius: 100%;
+			top: 11px;
+			@include size(6px);
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 pmSlctList styles
+---------------------------------------------------------*/
+.pmSlctList{ > li{ margin-bottom: 10px; } }
+/* ---------------------------------------------------------
+	 pmPlaceholderImage styles
+---------------------------------------------------------*/
+.pmPlaceholderImage{ margin: -52px 0 -52px 14px; }
+/* ---------------------------------------------------------
+	 pmNotePop styles
+---------------------------------------------------------*/
+.pmNotePop{
+	margin-top: 12px;
+	padding: 8px 15px;
+	@include pseudo(before, auto, auto, 100%, 12px);
+	&:before{ @include triangle(5px 12px, $light, up); }
+}
+/* ---------------------------------------------------------
+	 otwBlock styles
+---------------------------------------------------------*/
+.otwBlock{ .headingHead{ margin-bottom: 27px; } }
+/* ---------------------------------------------------------
+	 teamColumn styles
+---------------------------------------------------------*/
+.teamColumn{
+	border: 1px solid $border-color;
+	overflow: hidden;
+	margin-bottom: 30px;
+	&.hover{
+		.captionWrap{
+			color: $white;
+			margin-top: -63px;
+			padding-top: 16px;
+			padding-bottom: 25px;
+		}
+		h3, .h3,
+		h4, .h4{ color: inherit; }
+		h3, .h3{
+			a{ &:hover{ color: $black; } }
+		}
+		.tcSocialNetworks{
+			max-height: 50px;
+			padding-top: 20px;
+		}
+	}
+	.imgHolder{
+		margin: 0;
+		img{ max-width: none; }
+	}
+	h3, .h3,
+	h4, .h4{
+		@extend %transition;
+		@include nowrap(block);
+	}
+	h3, .h3{ margin-bottom: 5px; }
+	h4, .h4{
+		color: $gray-200;
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	.captionWrap{
+		transition: all 0.3s ease;
+		position: relative;
+		z-index: 1;
+		padding: 13px 10px 15px;
+	}
+}
+/* ---------------------------------------------------------
+	 tcSocialNetworks styles
+---------------------------------------------------------*/
+.tcSocialNetworks{
+	transition: all 0.3s ease;
+	max-height: 0;
+	overflow: hidden;
+	li{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	a{
+		color: $white;
+		border: 1px solid currentColor;
+		@include size(30px);
+		&:hover{ color: $black; }
+	}
+}
+/* ---------------------------------------------------------
+	 slickGalleryBars styles
+---------------------------------------------------------*/
+.slickGalleryBars{
+	line-height: 0;
+	z-index: 1;
+	margin: 0 -25px;
+	padding-top: 20px;
+	clear: both;
+	li{
+		flex-grow: 1;
+		flex-basis: 0;
+		display: flex;
+		@include pseudo(after, auto, -9999px, 0, -9999px);
+		&:after{
+			z-index: -1;
+			border-bottom: 1px solid $border-color;
+		}
+	}
+	button{
+		padding: 0;
+		border: 0;
+		display: flex;
+		background-color: transparent;
+		@include text-hide();
+		@include size(100%, 3px);
+	}
+}
+/* ---------------------------------------------------------
+	 galleryAreaBlock styles
+---------------------------------------------------------*/
+.galleryAreaBlock{
+	overflow: hidden;
+	padding-top: 0;
+}
+/* ---------------------------------------------------------
+	 prPCColumnsWrap styles
+---------------------------------------------------------*/
+.prPCColumnsWrap{
+	&.row{
+		margin-left: -6px;
+		margin-right: -6px;
+	}
+	.col{
+		padding-left: 6px;
+		padding-right: 6px;
+		vertical-align: top;
+	}
+}
+/* ---------------------------------------------------------
+	 loadMoreBtnWrap styles
+---------------------------------------------------------*/
+.loadMoreBtnWrap{
+	padding-top: 38px;
+	.btn{ min-width: 150px; }
+}
+/* ---------------------------------------------------------
+	 pageFullBlock styles
+---------------------------------------------------------*/
+.pageFullBlock{
+	@include pseudo(before, 0, 0, 0, 0);
+	&:before{
+		@extend .inaccessible;
+		background-color: rgba($black, 0.7);
+	}
+	.holder{
+		z-index: 2;
+		min-height: 100vh;
+		@include v-align(inherit, middle, before);
+		> .align{
+			padding-top: 100px;
+			padding-bottom: 40px;
+		}
+	}
+	.hTitle{ color: inherit; }
+	h1, .h1{
+		color: inherit;
+		margin-bottom: 30px;
+	}
+	h2, .h2{
+		color: inherit;
+		margin-bottom: 10px;
+	}
+	.subtitle{ margin-bottom: 32px; }
+	.btnsWrap{
+		.btn{
+			margin: 0 10px 10px;
+			min-width: 160px;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 countdownList styles
+---------------------------------------------------------*/
+.countdownList{
+	font-size: 15px;
+	line-height: 1;
+	margin-left: -5px;
+	margin-right: -5px;
+	> li{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	h1, .h1{
+		color: inherit;
+		margin-bottom: 0;
+	}
+}
+/* ---------------------------------------------------------
+	 signWarn styles
+---------------------------------------------------------*/
+.signWarn{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+/* ---------------------------------------------------------
+	 swwdColumnsSliderType2 styles
+---------------------------------------------------------*/
+.swwdColumnsSliderType2{
+	.slick-arrow{
+		border-style: solid;
+		border-width: 1px;
+		position: absolute;
+		top: 25%;
+		z-index: 5;
+		color: $dark;
+		border-radius: $border-radius;
+		font-size: 18px;
+		@include size(50px);
+		&:hover{ color: $white; }
+	}
+	.slickPrev{ left: -100px; }
+	.slickNext{ right: -100px; }
+}
+/* ---------------------------------------------------------
+	 pdssImage styles
+---------------------------------------------------------*/
+.pdssImage{
+	@extend %transition;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+	&.hover{ transform: scale(1.08); }
+	img{ max-width: none; }
+}
+/* ---------------------------------------------------------
+	 prjctDtSliderSwitcher styles
+---------------------------------------------------------*/
+.prjctDtSliderSwitcher{
+	&.slick-vertical{ .slick-slide{ border-width: 15px 0; } }
+}
+/* ---------------------------------------------------------
+	 pdssvSliderWrap styles
+---------------------------------------------------------*/
+.pdssvSliderWrap{ margin: 10px -5px 0; }
+/* ---------------------------------------------------------
+	 pdisImage styles
+---------------------------------------------------------*/
+.pdisImage{
+	width: 100%;
+	padding-top: 56%;
+}
+/* ---------------------------------------------------------
+	 pdbDescriptionHolder styles
+---------------------------------------------------------*/
+.prjctDetailsBlock{
+	h3, .h3{
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		@include pseudo(after, auto, 0, 0, 0);
+		&:after{ border-bottom: 1px solid $border-color; }
+	}
+	p{ margin-bottom: 10px; }
+}
+/* ---------------------------------------------------------
+	 pdDescrTable styles
+---------------------------------------------------------*/
+.pdDescrTable{
+	&.table{
+		table-layout: fixed;
+		margin-top: -1px;
+		td{
+			padding: 0;
+			&:first-child{ .tdWrap{ padding-right: 10px; } }
+		}
+		.tdWrap{ padding: 15px 0; }
+	}
+}
+/* ---------------------------------------------------------
+	 prdtImageWrap styles
+---------------------------------------------------------*/
+.prdtImageWrap{
+	overflow: hidden;
+	margin: 0;
+	&.alignright{ float: none; }
+	+ .prdtImageWrap{ margin-top: 30px; }
+}
+/* ---------------------------------------------------------
+	 contactAreaBlock styles
+---------------------------------------------------------*/
+.contactAreaBlock{
+	h2, .h2{ margin-bottom: 10px; }
+	p{ margin-bottom: 25px; }
+}
+/* ---------------------------------------------------------
+	 ctMapHolder styles
+---------------------------------------------------------*/
+.ctMapHolder{
+	.map{ @include size(100%, 250px); }
+}
+/* ---------------------------------------------------------
+	 ctAddress styles
+---------------------------------------------------------*/
+.ctAddress{
+	li{ margin-bottom: 37px; }
+	.icn{
+		color: $gray-200;
+		font-size: 24px;
+		width: 24px;
+		margin-right: 20px;
+	}
+	a{ color: inherit; }
+}
+/* ---------------------------------------------------------
+	 widgetCtForm styles
+---------------------------------------------------------*/
+.widgetCtForm{
+	padding: 20px;
+	textarea{
+		&,
+		&.form-control{
+			height: 122px;
+			resize: none;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 ctList styles
+---------------------------------------------------------*/
+.ctList{
+	margin-bottom: 0;
+	li{
+		margin-bottom: 15px;
+		&.hover{
+			.icn{ transform: scaleX(-1); }
+		}
+	}
+	.icn{
+		@extend %transition;
+		transform: scaleX(1);
+		font-size: 36px;
+		margin-bottom: 15px;
+	}
+	h3, .h3{
+		@extend %transition;
+		margin-bottom: 15px;
+	}
+	a{ color: inherit; }
+}
+/* ---------------------------------------------------------
+	 bCenterImage styles
+---------------------------------------------------------*/
+.bCenterImage{
+	&.aligncenter{ margin-bottom: 53px; }
+}
+/* ---------------------------------------------------------
+	 btHHead styles
+---------------------------------------------------------*/
+.btHHead{
+	color: $gray-200;
+	margin-bottom: 26px;
+	h1, .h1{
+		margin-bottom: 10px;
+		font-size: 24px;
+		line-height: (32/24);
+	}
+}
+/* ---------------------------------------------------------
+	 bdText styles
+---------------------------------------------------------*/
+.bdText{
+	font-size: 14px;
+	line-height: 1;
+	.sep{
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+/* ---------------------------------------------------------
+	 statusesList styles
+---------------------------------------------------------*/
+.statusesList{
+	color: $gray-200;
+	font-size: 14px;
+	line-height: 1;
+	padding-top: 7px;
+	> li{ margin-left: 53px; }
+	a{ color: inherit; }
+	.icn{ margin-right: 1px; }
+}
+/* ---------------------------------------------------------
+	 quoteDefault styles
+---------------------------------------------------------*/
+.quoteDefault{
+	font-style: italic;
+	font-size: 18px;
+	line-height: (30/18);
+	padding: 26px 90px 29px 26px;
+	margin-bottom: 23px;
+	@include pseudo(after, 0, 0, auto, auto);
+	&:after{
+		content: "\e905";
+		font-size: 32px;
+		top: 32px;
+		right: 30px;
+		font-family: 'icomoon';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	q{ margin-bottom: 11px; }
+	cite{
+		font-style: normal;
+		color: $body-color;
+		font-size: 14px;
+		line-height: (18/14);
+	}
+}
+/* ---------------------------------------------------------
+	 rpPosterSlider styles
+---------------------------------------------------------*/
+.rpPosterSlider{
+	margin-top: -70px;
+	padding-top: 70px;
+	.slick-arrow{
+		border-style: solid;
+		border-width: 1px;
+		position: absolute;
+		right: 15px;
+		top: 0;
+		color: $gray-300;
+		border-radius: $border-radius;
+		font-size: 12px;
+		@include size(30px);
+		&:hover{ color: $white; }
+	}
+	.slickPrev{ margin-right: 40px; }
+}
+/* ---------------------------------------------------------
+	 rpPostsWrap , commentsWrap styles
+---------------------------------------------------------*/
+.rpPostsWrap,
+.commentsWrap{
+	h2, .h2{
+		font-size: 24px;
+		line-height: (30/24);
+		margin-bottom: 40px;
+	}
+}
+/* ---------------------------------------------------------
+	 commentsWrap styles
+---------------------------------------------------------*/
+.commentsWrap{ h2, .h2{ margin-bottom: 30px; } }
+/* ---------------------------------------------------------
+	 bpCommentsList styles
+---------------------------------------------------------*/
+.bpCommentsList{
+	li{
+		overflow: hidden;
+		+ li{ padding-top: 17px; }
+	}
+	.avatar-holder{
+		margin: 4px 15px 0 0;
+		@include size(70px);
+	}
+	h3, .h3{ margin-bottom: 11px; }
+	.descrWrap{ overflow: hidden; }
+	time{
+		color: $gray-200;
+		font-style: italic;
+		font-size: 14px;
+		line-height: (18/14);
+		margin-bottom: 6px;
+	}
+	.btn{
+		font-size: 12px;
+		line-height: (16/12);
+		min-width: 70px;
+		margin-right: 17px;
+		vertical-align: top;
+	}
+	.btn:before,
+	.btnText{ padding: 6px 10px; }
+	ul{
+		padding-top: 38px;
+		padding-left: 23px;
+	}
+	p{ margin-bottom: 14px; }
+}
+/* ---------------------------------------------------------
+	  comment form styles
+---------------------------------------------------------*/
+.comment-form{
+	.form-row{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.formCol{
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+	.form-control,
+	input[type="text"],
+	input[type="email"]{
+		border-color: $input-border-color;
+		margin: 0;
+	}
+	textarea{
+		&,
+		&.form-control{
+			height: 116px;
+			resize: none;
+		}
+	}
+	h2, .h2{
+		font-size: 24px;
+		margin-bottom: 24px;
+	}
+	.btn{
+		min-width: 180px;
+		margin-top: 10px;
+	}
+}
+/* ---------------------------------------------------------
+	 shareSocialLinks styles
+---------------------------------------------------------*/
+.shareSocialLinks{
+	font-size: 14px;
+	> li{ margin-bottom: 20px; }
+	a{
+		border-radius: 99px;
+		color: $white;
+		padding: 8px 10px 9px;
+	}
+	.facebook{
+		background-color: $blue;
+		&:hover{ background-color: darken($blue, 10%); }
+	}
+	.twitter{
+		background-color: $cyan;
+		&:hover{ background-color: darken($cyan, 10%); }
+	}
+	.google{
+		background-color: $clr2;
+		&:hover{ background-color: darken($clr2, 10%); }
+	}
+	.icn{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 28px;
+	}
+}
+/* ---------------------------------------------------------
+	 piSocialLinks styles
+---------------------------------------------------------*/
+.piSocialLinks{
+	font-size: 14px;
+	margin-bottom: 10px;
+	> li{
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+	a{ color: inherit; }
+}
+/* ---------------------------------------------------------
+	 wpiTable styles
+---------------------------------------------------------*/
+.wpiTable{
+	&.table{
+		table-layout: fixed;
+		border: solid $border-color;
+		font-size: 14px;
+		line-height: (20/14);
+		border-width: 1px 0 0;
+		margin-left: -11px;
+		margin-right: -11px;
+		width: calc(100% + 22px);
+		th,
+		td{
+			border: solid $border-color;
+			border-width: 0 1px;
+			padding: 4px 5px;
+		}
+		th{
+			padding-top: 11px;
+			padding-bottom: 0;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 imgLignCenter styles
+---------------------------------------------------------*/
+.imgLignCenter{
+	&.aligncenter{
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+}
+/* ---------------------------------------------------------
+	 sticky wrap headerFixer styles
+---------------------------------------------------------*/
+.sticky-wrap-headerFixer{
+	&.fixedPosition{
+		.logo05Sticky,
+		.logo03Sticky{ display: block; }
+	}
+}
+/* ---------------------------------------------------------
+	 cshHolderWrap styles
+---------------------------------------------------------*/
+.cshHolderWrap{
+	margin-left: ($grid-gutter-width / -2);
+	margin-right: ($grid-gutter-width / -2);
+	/* cshHolderWrap03 styles */
+	&.cshHolderWrap03{
+		margin-left: -5px;
+		margin-right: -5px;
+		.cshColumn{
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 cshColumn styles
+---------------------------------------------------------*/
+.cshColumn{
+	float: left;
+	padding-left: ($grid-gutter-width / 2);
+	padding-right: ($grid-gutter-width / 2);
+}
+/* ---------------------------------------------------------
+	 cshColumnFull styles
+---------------------------------------------------------*/
+.cshColumnFull{ width: 256px; }
+/* ---------------------------------------------------------
+	 hb-services styles
+---------------------------------------------------------*/
+.hb-services{
+	padding: 100px 0;
+	overflow: hidden;
+}
+/* ---------------------------------------------------------
+	 booked-calendar styles
+---------------------------------------------------------*/
+.booked-calendar {
+	overflow: hidden;
+	display: block;
+	padding: 12px 0 0;
+	tbody {
+		overflow: hidden;
+		tr {
+			overflow: hidden;
+			td {
+				width: 110px;
+				border: 1px solid $white;
+				background: $gray-100;
+				padding: 32px 0;
+				float: left;
+				span {
+					@include font(20px, 22px);
+					color: $gray-200;
+					display: block;
+					font-weight: 500;
+					&.active {
+						color: $white;
+						width: 50px;
+						padding: 12px 0;
+						display: block;
+						border-radius: 25px;
+						margin: -12px auto;
+					}
+				}
+				&:first-child {
+					border-top: 1px solid $white;
+					border-right: 1px solid $white;
+					border-bottom: 1px solid $white;
+				}
+				&:last-child {
+					border-top: 1px solid $white;
+					border-left: 1px solid $white;
+					border-bottom: 1px solid $white;
+				}
+				&.bg-green { span{ color: $white; } }
+			}
+		}
+	}
+	.entry-block {
+		overflow: hidden;
+		display: none;
+		transition: all 0.25s linear;
+		td {
+			width: 100%;
+			padding: 0;
+			height: auto;
+			table {
+				overflow: hidden;
+				margin: 0;
+				border-bottom: 1px solid $white;
+			}
+		}
+		table {
+			thead {
+				background: $gray-900;
+				overflow: hidden;
+				width: 100%;
+				border-bottom: 1px solid $white;
+				th {
+					@include font(16px, 18px);
+					color: $white;
+					font-weight: 500;
+					padding: 13px 0 18px;
+				}
+			}
+			tbody {
+				overflow: hidden;
+				td {
+					background: $gray-100;
+					padding: 10px 4px 10px 27px;
+					border-bottom: 1px solid $white;
+				}
+			}
+		}
+		.txt-block {
+			overflow: hidden;
+			padding: 11px 0 0;
+			width: 58.2%;
+			float: left;
+			time {
+				@include font(16px, 18px);
+				letter-spacing: 0.7px;
+				color: $gray-900;
+				float: left;
+			}
+			span {
+				@include font(16px, 18px);
+				color: $gray-200;
+				float: right;
+			}
+		}
+		.btn{
+			border-radius: 45px;
+			color: $gray-900;
+			i{ font-style: normal; }
+		}
+		.btnText{ padding: 0.5rem 1.25rem; }
+	}
+	thead {
+		overflow: hidden;
+		tr {
+			overflow: hidden;
+			background: $gray-900;
+			width: 100%;
+			.month-name {
+				@include font(20px, 22px);
+				color: $white;
+				font-weight: 500;
+				display: block;
+				width: 100%;
+				letter-spacing: 3px;
+			}
+			.fa {
+				@include font(20px, 22px);
+				float: right;
+				margin: -22px 17px 0 0;
+			}
+			th {
+				overflow: hidden;
+				padding: 15px 0;
+				width: 100%;
+				border: none;
+			}
+		}
+		.months {
+			background: $white;
+			overflow: hidden;
+			width: 100%;
+			th {
+				width: 14.285%;
+				color: $gray-900;
+				@include font(14px, 16px);
+				float: left;
+				font-weight: 500;
+				padding: 13px 0 11px;
+			}
+		}
+	}
+}
+/* ---------------------------------------------------------
+	 pre-active styles
+---------------------------------------------------------*/
+.pre-active { .entry-block { display: block; } }
+/* ---------------------------------------------------------
+	 back-top styles
+---------------------------------------------------------*/
+#back-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	@include font(18px, 20px);
+	color: #fff;
+	cursor: pointer;
+	float: right;
+	@include size(50px, 50px);
+	padding: 14px 0;
+	z-index: 9;
+	opacity: 0;
+	visibility: hidden;
+	background-size: 200% auto;
+	transition: all 0.6s ease 0s;
+ 	&:hover{ background-position: right center; }
+ 	&.active{
+		opacity: 1;
+		visibility: visible;
+	}
+}
+/* ---------------------------------------------------------
+	 loader-holder styles
+---------------------------------------------------------*/
+.loader-holder{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.9);
+	.block { 
+		position: absolute;
+		margin: auto;
+		top: 0; bottom: 0; left: 0; right: 0;
+		width: 6.250em; height: 6.250em;
+		animation: rotate 2.4s linear infinite;
+	}
+	.white { 
+		top: 0; bottom: 0; left: 0; right: 0; 
+		background: white; 
+		animation: flash 2.4s linear infinite;
+		opacity: 0;
+	}
+	.dot {
+		position: absolute;
+		margin: auto;
+		width: 2.4em; height: 2.4em;
+		border-radius: 100%;
+		transition: all 1s ease;
+		&:nth-child(2) { top: 0; bottom: 0; left: 0; background: #FF4444; animation: dotsY 2.4s linear infinite; }
+		&:nth-child(3) { left: 0; right: 0; top: 0; background: #FFBB33; animation: dotsX 2.4s linear infinite; }
+		&:nth-child(4) { top: 0; bottom: 0; right: 0; background: #99CC00; animation: dotsY 2.4s linear infinite; }
+		&:nth-child(5) { left: 0; right: 0; bottom: 0; background: #33B5E5; animation: dotsX 2.4s linear infinite; }
+	}
+}
+@keyframes rotate {
+	0% { transform: rotate( 0 ); }
+	10% { width: 6.250em; height: 6.250em; }
+	66% { width: 2.4em; height: 2.4em; }
+	100%{ transform: rotate(360deg); width: 6.250em; height: 6.250em; }
+}
+@keyframes dotsY {
+	66% { opacity: .1; width: 2.4em; }
+	77%{ opacity: 1; width: 0; }
+}
+@keyframes dotsX {
+	66% { opacity: .1; height: 2.4em;}
+	77%{ opacity: 1; height: 0; }
+}
+@keyframes flash {
+	33% { opacity: 0; border-radius: 0%; }
+	55%{ opacity: .6; border-radius: 100%; }
+	66%{ opacity: 0; }
+}

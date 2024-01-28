@@ -1,0 +1,251 @@
+/*
+Theme Name: Kitzen | Modern Kitchen HTML Template
+Author: Markhorthemes
+Author URI: https://themeforest.net/user/markhorthemes
+Version: 1
+Description: Base theme for HTML5
+Text Domain: base
+Tags: one-column, two-columns, three-columns
+Theme URI: http://www.htmlbeans.com/html/kitzen/
+*/
+
+/* ---------------------------------------------------------
+	 1. Embedded fonts styles
+	 2. General reset
+	 3. Common site styles
+	 ---------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------
+
+	 pageWrapper styles
+	 dropdown submenu styles
+	 headingHead styles
+	 hTitle styles
+	 blockH styles
+	 contentBlock styles
+	 btnMore styles
+	 btn styles
+	 btnText
+	 btnThemeOutine
+	 btnDefaultOutline
+	 btnTheme
+	 slickDots
+	 slickBars styles
+	 pageHeader
+	 pageHeaderHolder
+	 topBarContactList
+	 loginLinksList
+	 topBarSearchForm
+	 logo
+	 pageNavHolder
+	 pageNavBtnCart , topBarSearchFormOpener styles
+	 pageNavBtnCart
+	 pageNav
+	 pageMainNavigation
+	 pageMainNavOpener styles
+	 mainNavCollapse styles
+	 mainNavDropdown styles
+	 bannerSlider styles
+	 bannerSlideHolder styles
+	 bannerBlockSlideBg styles
+	 bannerSlideHeader styles
+	 bannerSliderSlide styles
+	 featuresList styles
+	 widget styles
+	 widgetFormtHead styles
+	 aboutIntroBlock styles
+	 quoteFormOpener styles
+	 widgetQuoteFormCollapse styles
+	 servicesBlock styles
+	 serviceColumn styles
+	 stepsDescrBlock styles
+	 stepsGuideList styles
+	 filterList styles
+	 filtersNavTabs styles
+	 prejectsListingBlock styles
+	 prPostColumn styles
+	 clientsTestimonialBlock styles
+	 clientQuote styles
+	 ratingStarList styles
+	 testimonialSwitcherSlider , testimonialSwitcherSlider02 styles
+	 testimonialSwitcherSlider02 styles
+	 testimonialSwitcherPicWrap styles
+	 videoBlockWrap styles
+	 btnPlay styles
+	 ltPostsBlock styles
+	 ltPostColumn styles
+	 pageFooterAreaWrap styles
+	 subscribeAsideBlock styles
+	 ftAddress styles
+	 adrList styles
+	 pageFooter styles
+	 ftLinksNav styles
+	 ftSocialLinks styles
+	 wcuBlock styles
+	 yoeListing styles
+	 wcuBlockImageHolder styles
+	 mkCallAside styles
+	 wwdTabsetAreaWrap styles
+	 wwdTabsetList styles
+	 videoAside styles
+	 pageHeaderTopBar styles
+	 phSocialLinks styles
+	 languageSlctDrop styles
+	 phAddress styles
+	 phadrList styles
+	 pgIcnsWrap styles
+	 pgSearchForm styles
+	 pgSearchFormOpener styles
+	 pgSearchCollpase styles
+	 bsSwitcherAsideWrap styles
+	 bsSwitcher styles
+	 bsSSlide styles
+	 servicesVisualColumnsBlock styles
+	 svcColumn styles
+	 prjctDescrColumn styles
+	 postTitleTextTag styles
+	 prjctColumnImageWrap styles
+	 prjctTextHolder styles
+	 prjctCatagoriesSlider styles
+	 prjctSSlide styles
+	 pSsImage styles
+	 filtersTabContentWrap styles
+	 hwwCBlock styles
+	 hwwColumnsList styles
+	 shareWTitleWrap styles
+	 socialLinksSimple styles
+	 bannerBottomAsideBlock styles
+	 bannerAsideServicesList styles
+	 abtIntroAsideBlock styles
+	 swwdPost styles
+	 swwdColumnsSlider styles
+	 hiwStepsList styles
+	 npProjectsSlider styles
+	 npssSlide styles
+	 powVisualPost styles
+	 pricingPlansBlock styles
+	 pricePlanColumn styles
+	 pricingFeaturesList styles
+	 reKtAsideBlock styles
+	 popItemColumn styles
+	 popActionsList styles
+	 moreExploreHolder styles
+	 breadcrumb styles
+	 pageBdWrapNav styles
+	 ctSorterWrapHeader styles
+	 viewSorterList styles
+	 dsSortDropdown styles
+	 pagination styles
+	 getResultsWrap styles
+	 popItemColumn__listView styles
+	 filtersSidebarFWrap styles
+	 fSFWHolder styles
+	 filtersSidebarOpener styles
+	 detailsImageSlider styles
+	 disSliderWrap styles
+	 disImg styles
+	 sdbWDescription styles
+	 cartForm styles
+	 shpDefinaition styles
+	 shpTopIntroWrap styles
+	 disSwitcherSlider styles
+	 listDefault styles
+	 benefitsFeaturedList styles
+	 reviewsList styles
+	 reviewSubmissionForm styles
+	 cartTableWrap styles
+	 cartTable styles
+	 cartQuantity styles
+	 cartTotal styles
+	 checkoutAlert styles
+	 bilingDetailsWrap styles
+	 confirmationBoxWrap styles
+	 checkoutCountTable styles
+	 custom control styles
+	 pmSlctList styles
+	 pmPlaceholderImage styles
+	 pmNotePop styles
+	 otwBlock styles
+	 teamColumn styles
+	 tcSocialNetworks styles
+	 slickGalleryBars styles
+	 galleryAreaBlock styles
+	 prPCColumnsWrap styles
+	 loadMoreBtnWrap styles
+	 pageFullBlock styles
+	 countdownList styles
+	 signWarn styles
+	 swwdColumnsSliderType2 styles
+	 pdssImage styles
+	 prjctDtSliderSwitcher styles
+	 pdssvSliderWrap styles
+	 pdisImage styles
+	 pdbDescriptionHolder styles
+	 pdDescrTable styles
+	 prdtImageWrap styles
+	 contactAreaBlock styles
+	 ctMapHolder styles
+	 ctAddress styles
+	 widgetCtForm styles
+	 ctList styles
+	 bCenterImage styles
+	 btHHead styles
+	 bdText styles
+	 statusesList styles
+	 quoteDefault styles
+	 rpPosterSlider styles
+	 rpPostsWrap , commentsWrap styles
+	 commentsWrap styles
+	 bpCommentsList styles
+	 comment form styles
+	 shareSocialLinks styles
+	 piSocialLinks styles
+	 wpiTable styles
+	 imgLignCenter styles
+	 sticky wrap headerFixer styles
+	 cshHolderWrap styles
+	 cshColumn styles
+	 cshColumnFull styles
+	 hb-services styles
+	 booked-calendar styles
+	 pre-active styles
+	 back-top styles
+	 loader-holder styles
+	 
+---------------------------------------------------------*/
+
+/* ---------------------------------------------------------
+	 1. Embedded fonts styles
+	 ---------------------------------------------------------*/
+
+@import "vendors/fontawesone/fa-regular";
+@import "vendors/fontawesone/fa-solid";
+@import "vendors/fontawesone/fa-brands";
+@import "vendors/fontawesone/fontawesome";
+
+
+@import "vendors/bootstrap/functions";
+@import "bootstrap-custom";
+@import "vendors/bootstrap/variables";
+@import "vendors/bootstrap/mixins";
+
+@import 'base/mixins';
+@import 'base/helpers';
+
+/* ---------------------------------------------------------
+	 2. General reset
+	 ---------------------------------------------------------*/
+
+@import 'base/wp-reset';
+
+/* ---------------------------------------------------------
+	 3. Common site styles
+	 ---------------------------------------------------------*/
+
+@import 'all';
+
+/* ---------------------------------------------------------
+	 site animations
+---------------------------------------------------------*/
+@import 'animations';

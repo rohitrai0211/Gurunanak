@@ -1,0 +1,235 @@
+// custom variables and override bootstrap variables
+
+$clr1:	#2a393f;
+$clr2:	#f43535;
+
+// Color system
+$white:    #fff !default;
+$gray-100: #f2f4f5;
+$gray-200: #a6a6a6;
+$gray-300: #6e6e6e;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #171631;
+$gray-900: #191919;
+$black:    #000 !default;
+
+$grays: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+	(
+		"100": $gray-100,
+		"200": $gray-200,
+		"300": $gray-300,
+		"400": $gray-400,
+		"500": $gray-500,
+		"600": $gray-600,
+		"700": $gray-700,
+		"800": $gray-800,
+		"900": $gray-900
+	),
+	$grays
+);
+
+$blue:    #4c65a8;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #e22027;
+$orange:  #fd7e14 !default;
+$yellow:  #ffb136;
+$green:   #39b54a;
+$teal:    #20c997 !default;
+$cyan:    #41a1f6;
+
+$colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+	(
+		"blue":       $blue,
+		"indigo":     $indigo,
+		"purple":     $purple,
+		"pink":       $pink,
+		"red":        $red,
+		"orange":     $orange,
+		"yellow":     $yellow,
+		"green":      $green,
+		"teal":       $teal,
+		"cyan":       $cyan,
+		"white":      $white,
+		"gray":       $gray-300,
+		"gray-dark":  $gray-900
+	),
+	$colors
+);
+
+$success:       $green;
+$primary:       $blue;
+$secondary:     $gray-600 !default;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+	(
+		"primary":    $primary,
+		"secondary":  $secondary,
+		"success":    $success,
+		"info":       $info,
+		"warning":    $warning,
+		"danger":     $danger,
+		"light":      $light,
+		"dark":       $dark
+	),
+	$theme-colors
+);
+
+$color: $success;
+
+// Body
+$body-color:	$gray-300;
+
+// Links
+$link-color:	theme-color("warning");
+$link-hover-decoration:	none;
+
+// Paragraphs
+$paragraph-margin-bottom:	20px;
+
+// Grid breakpoints
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	lgwd: 1025px,
+	xl: 1230px,
+	xlwd: 1440px,
+	xlwdf: 1920px
+);
+
+// Grid containers
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1200px
+);
+
+// Components
+$border-color:	rgba($black, 0.1);
+$border-radius-sm:	2px;
+$border-radius:	$border-radius-sm;
+$border-radius-lg:	99px;
+$box-shadow:	0 10px 20px rgba($gray-800, .1);
+$border-width:	1px !default;
+
+// Fonts
+$font-family-sans-serif:	"Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-roboto:	"Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base:	$font-family-sans-serif;
+$font-size-base:	1rem;
+$line-height-base:	(26/16);
+$h1-font-size:	30px;
+$h2-font-size:	26px;
+$h3-font-size:	22px;
+$h4-font-size:	20px;
+$h5-font-size:	16px;
+$h6-font-size:	14px;
+$headings-font-family:	$font-roboto;
+$headings-color:	$dark;
+$blockquote-font-size:	18px;
+
+// Buttons + Forms
+$input-btn-padding-y:	0.5rem;
+$input-btn-padding-x:	1.25rem;
+
+// Buttons
+$btn-padding-y:	0.7rem;
+$btn-font-weight:	500;
+$btn-box-shadow:	none;
+$btn-focus-width:	$border-width;
+$btn-focus-box-shadow:	$btn-box-shadow;
+$btn-border-radius:	$border-radius;
+$btn-border-radius-lg:	$border-radius;
+$btn-border-radius-sm:	$border-radius;
+
+// Forms
+$input-padding-y:	$input-btn-padding-y;
+$input-padding-x:	$input-btn-padding-x;
+$input-color:	$dark;
+$input-border-color:	rgba($black, 0.1);
+$input-box-shadow:	none;
+$input-border-radius:	$border-radius;
+$input-border-radius-lg:	$input-border-radius;
+$input-border-radius-sm:	$input-border-radius;
+$input-focus-border-color:	$dark;
+$input-focus-color:	$input-color;
+$input-focus-box-shadow:	none;
+$input-placeholder-color:	$gray-200;
+$input-height:	42px;
+$form-feedback-valid-color:	theme-color("success");
+$form-feedback-invalid-color:	theme-color("danger");
+$form-group-margin-bottom:	20px;
+
+$custom-select-padding-y:	$input-btn-padding-y;
+$custom-select-padding-x:	0.9rem;
+$custom-select-height:	$input-height;
+$custom-select-color:	$input-color;
+$custom-select-indicator-color:	$input-color;
+$custom-select-border-color:	$input-border-color;
+$custom-select-border-radius:	$border-radius;
+$custom-select-box-shadow:	$input-focus-box-shadow;
+$custom-select-focus-border-color:	$input-focus-border-color;
+$custom-select-focus-box-shadow:	$input-focus-box-shadow;
+
+// Dropdowns
+$dropdown-min-width:	200px;
+$dropdown-bg:	$white !default;
+$dropdown-border-color:	$dropdown-bg;
+$dropdown-border-radius:	$border-radius;
+$dropdown-box-shadow:	$box-shadow;
+$dropdown-link-color:	$gray-300;
+$dropdown-item-padding-y:	1.13rem;
+$dropdown-item-padding-x: 2rem;
+
+// Pagination
+$pagination-color:	$gray-200;
+$pagination-bg:	$light;
+$pagination-border-color:	$gray-200;
+
+// Navs
+$nav-tabs-border-color:	$border-color;
+$nav-tabs-border-radius:	0;
+
+// Breadcrumbs
+$breadcrumb-active-color:	$gray-200;
+$breadcrumb-divider:	quote(">");
+$breadcrumb-divider-color:	$dark;
+$breadcrumb-item-padding:	0.3rem;
+
+// Pagination
+$pagination-padding-y:	7px;
+$pagination-padding-x:	5px;
+$pagination-color:	$body-color;
+$pagination-border-color:	$border-color;
+
+// Tables
+$table-border-color:	$border-color;
+$table-head-bg:	transparent;
+$table-head-color:	$dark;
+
+// Alerts
+$alert-padding-y:	0.56rem;
+$alert-padding-x:	1.19rem;
+$alert-margin-bottom:	15px;
+$alert-border-radius:	0;
+$alert-link-font-weight:	inherit;
+$alert-bg-level:	0;
+$alert-border-level:	0;
