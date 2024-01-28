@@ -1,0 +1,26 @@
+// clearfix
+%clearfix {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+// transition
+%transition {
+	transition: 0.3s ease;
+	transition-property: color, background, border, visibility, opacity, box-shadow, transform, max-height, max-width;
+}
+
+%colorBg{
+	background-color: $color;
+}
+
+%colorBdr{
+	border-color: $color;
+}
+
+%colorClr{
+	color: $color;
+}
