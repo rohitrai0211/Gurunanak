@@ -1,0 +1,30 @@
+@include media-breakpoint-up(xlwd){
+	h1, .h1{ font-size: 60px; }
+	.colXlWdDivision5{
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+	.bannerSlideHolder{
+		&.bannerSlideHolder03{
+			> .align{
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		&.bannerSlideHolder04{
+			> .align{
+				padding-top: 130px;
+				padding-bottom: 140px;
+			}
+		}
+		> .align{ padding: 65px 0 70px; }
+	}
+	.svcColumn{
+		.align{
+			padding-left: 70px;
+			padding-right: 70px;
+		}
+	}
+	.gabSlider{ max-width: 100%; }
+	.cshColumnFull{ width: 1200px; }
+}

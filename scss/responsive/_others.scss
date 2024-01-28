@@ -1,0 +1,102 @@
+@include media-breakpoint-between(sm , md){
+	.relativeMd{ position: relative; }
+}
+@include media-breakpoint-between(xs , sm){
+	.relativeSm{ position: relative; }
+}
+/* sm down (<768) query styles */
+@include media-breakpoint-down(sm){
+	.hiddenXs{ display: none !important; }
+	.smTabsToAccordion{
+		.tab-pane{
+			display: block !important;
+			opacity: 1 !important;
+			height: auto !important;
+			overflow: visible !important;
+		}
+	}
+	.loginLinksList{ background-color: transparent; }
+	.filtersNavTabs{
+		&.nav-tabs{
+			.nav-link{
+				&:hover,
+				&.active{ color: $white; }
+			}
+		}
+	}
+	.ltPostColumn{
+		&.ltPostColumn03{
+			.alignleft{
+				float: none;
+				margin: 0 0 15px;
+				width: 100%;
+			}
+		}
+	}
+	.booked-calendar{ width: 687px; max-width: 687px; }
+	.hb-services{ padding: 60px 0; }
+}
+/* md down (<992) query styles */
+@include media-breakpoint-down(md){
+	.mdTabsToAccordion{
+		.tab-pane{
+			display: block !important;
+			opacity: 1 !important;
+			height: auto !important;
+			overflow: visible !important;
+		}
+	}
+	.pageMainNavigation{
+		&.navbar-nav{
+			.nav-item{
+				&.active{
+					.nav-link{ color: $white; }
+				}
+			}
+			.nav-link{ &:hover{ color: $white; } }
+		}
+	}
+	.mainNavCollapse{
+		&.navbar-collapse{
+			height: auto !important;
+			overflow: visible !important;
+			transition: all 0.3s ease !important;
+		}
+	}
+	.mainNavDropdown{
+		&.dropdown-menu{
+			background-color: transparent;
+			box-shadow: none;
+		}
+	}
+	.booked-calendar tbody tr td{ width: 98px; }
+}
+/* lg down (<1230) query styles */
+@include media-breakpoint-down(lg){
+	.lgTabsToAccordion{
+		.tab-pane{
+			display: block !important;
+			opacity: 1 !important;
+			height: auto !important;
+			overflow: visible !important;
+		}
+	}
+}
+/* lgwd down (<1025) query styles */
+@include media-breakpoint-down(lgwd){
+	.pageMainNavigation{
+		li.dropdown,
+		li.dropdown-submenu{
+			&.show{
+				.nav-link{
+					&:before{ transform: scaleX(1) translateX(-50%); }
+				}
+				> .dropdown-menu{
+					transform: translateY(0);
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+	}
+}

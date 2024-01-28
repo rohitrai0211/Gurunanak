@@ -1,0 +1,19 @@
+@include media-breakpoint-up(lgwd){
+	.pageMainNavigation{
+		&.navbar-nav{
+			li.dropdown,
+			li.dropdown-submenu{
+				&:hover{
+					.nav-link{
+						&:before{ transform: scaleX(1); }
+					}
+					> .dropdown-menu{
+						transform: translateY(0);
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+@include media-breakpoint-up(xlwdf){
+	.bannerSliderBlock{
+		.slickPrev{ left: 76px; }
+		.slickNext{ right: 76px; }
+	}
+}

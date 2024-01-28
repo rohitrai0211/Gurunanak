@@ -1,0 +1,107 @@
+@include media-breakpoint-up(sm){
+	.logo{ &.logo04{ margin-top: 10px; } }
+	.pageMainNavOpener{ &.pageMainNavOpener04{ margin-top: 6px; } }
+	.mainNavCollapse{
+		&.navbar-collapse{
+			&.mainNavCollapse03,
+			&.mainNavCollapse05{
+				width: 100%;
+				left: 0;
+			}
+			&.mainNavCollapse04{ top: 90px; }
+		}
+	}
+	.featuresList{
+		margin: 44px #{$grid-gutter-width / -2} 0;
+		&.featuresList04{
+			margin-left: 0;
+			margin-right: 0;
+			> li{
+				min-width: 1px;
+				padding-left: 0;
+				padding-right: 0;
+			}
+			.icn{ font-size: 38px; }
+		}
+		> li{
+			min-width: 25%;
+			padding-left: #{$grid-gutter-width / 2};
+			padding-right: #{$grid-gutter-width / 2};
+			margin-bottom: $grid-gutter-width;
+		}
+		.icn{ font-size: 38px; }
+	}
+	.testimonialSwitcherSlider02{
+		max-width: 400px;
+		.slick-slide{
+			&,
+			&.slick-current{ width: 70px; }
+		}
+	}
+	.testimonialSwitcherPicWrap{
+		&.testimonialSwitcherPicWrap02{ @include size(70px); }
+	}
+	.ltPostColumn{
+		&.ltPostColumn03{
+			.descriptionWrap{
+				padding-top: 15px;
+				padding-bottom: 15px;
+				&.topAdjust{
+					padding-top: 0;
+					padding-bottom: 0;
+				}
+			}
+		}
+		.alignleft{
+			margin-top: 0;
+			margin-right: 24px;
+			width: 212px;
+		}
+	}
+	.pgSearchCollpase{ width: 410px; }
+	.npProjectsSlider{ max-width: 382px; }
+	.npssSlide{
+		padding-left: #{$grid-gutter-width / 2};
+		padding-right: #{$grid-gutter-width / 2};
+	}
+	.powVisualPost{
+		.textWrap{
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.popItemColumn__listView{
+		.imgHolder{ margin: 0 20px 0 -20px; }
+	}
+	.filtersSidebarFWrap{ width: 320px; }
+	.cartForm{ .btn{ min-width: 186px; } }
+	.shpDefinaition{
+		dt{
+			margin-bottom: 10px;
+			margin-right: 5px;
+			float: left;
+			clear: left;
+		}
+	}
+	.reviewsList{
+		.alignleft{
+			float: left;
+			margin: 0 25px 0 0;
+		}
+	}
+	.pdisImage{
+		padding-top: 0;
+		height: 240px;
+	}
+	.comment-form{
+		.formCol{
+			&.formColHalf{ width: 50%; }
+		}
+	}
+	.pdssvSliderWrap{ margin: -15px 0 0; }
+	.pdssImage{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.cshColumnFull{ width: 432px; }
+}
