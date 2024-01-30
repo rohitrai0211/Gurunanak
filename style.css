@@ -264,6 +264,7 @@ table th {
   text-align: center;
   font-size: 14px;
     font-weight: 400;
+display: none !important;
 }
 
 table td {
@@ -271,16 +272,19 @@ table td {
   border: 1px solid #000000;
   text-align: center;
   font-size: 14px;
+display: none !important;
 }
 
 table tr {
   background-color: #dddddd;
   color: #000000;
   text-align: left;
+display: none !important;
 }
 
 table .mobile-head {
   display: none;
+display: none !important;
 }
 
 @media screen and (max-width: 600px) {
