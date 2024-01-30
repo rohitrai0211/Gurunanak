@@ -6530,8 +6530,8 @@ li.active {
 ---------------------------------------------------------*/
 .filterList {
   overflow: hidden;
-  margin-bottom: 0;
-  padding-right: 15px;
+  margin-bottom: 10px;
+  padding-right: 0px;
   padding-top: 37px;
 }
 
