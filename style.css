@@ -6563,7 +6563,7 @@ li.active {
   position: absolute;
   left: 0;
   top: 0;
-  right: 15px;
+  right: 0px;
   -webkit-box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.1);
 }
@@ -6584,7 +6584,7 @@ li.active {
   color: inherit;
   display: block;
   position: relative;
-  padding: 5px 15px;
+  padding: 5px 0px;
 }
 
 .filterList a:after {
