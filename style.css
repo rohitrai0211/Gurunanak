@@ -261,6 +261,7 @@ table {
   padding: 0px;
   table-layout: fixed;
   min-width: 100%;
+display:none;
 }
 
 table th {
